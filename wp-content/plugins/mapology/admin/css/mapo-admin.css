@@ -1,0 +1,9 @@
+.required{color:red}
+#poststuff h3{cursor:pointer !important}
+.long-text{width:99% !important}
+#mapo-page h2{padding:0 20px 0 45px !important;background:transparent url(../images/shabu-logo.png) no-repeat left top;margin:6px}
+dd{margin-bottom:30px;padding-left:30px}
+#mapo-form hr{margin:20px 0;border:none;border-top:1px solid #efefef}
+#mapo-settings td, #mapo-settings th{border-bottom:1px solid #efefef}
+#mapo-page{border:1px solid #DFDFDF;margin:30px 15px 0 15px;clear:both;padding-bottom: 20px;-moz-border-radius: 6px;-khtml-border-radius: 6px;-webkit-border-radius: 6px;border-radius: 6px;overflow:auto;display: block;background:#fff url(../images/admin-header-footer.png) repeat-x top;}
+#mapo-content{padding:15px 15px 0 15px;position: relative;}

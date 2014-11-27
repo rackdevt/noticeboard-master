@@ -1,0 +1,50 @@
+/* GMW Groups Locator default search results stylesheet */
+
+.gmw-gl-results-wrapper {
+    border-top: 1px solid #eaeaea;
+    padding:10px 0px;
+    margin-top:20px;
+}
+
+.gmw-gl-radius-wrapper {	
+	padding: 3px 5px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	font-size: 11px;
+	text-align: center;
+	display: inline  !important;
+	margin:5px;
+}
+							
+.gmw-gl-per-page-dropdown {
+	margin:0px 15px 0px 5px;
+	float: left;
+	height:25px !important;
+	font-size: 12px;
+	border:1px solid #ccc;
+	color:#444;
+}
+
+.gmw-gl-orderby-dropdown {
+	margin:0px 15px 0px 5px;
+	float: right;
+	height:25px !important;
+	font-size: 12px;
+	border:1px solid #ccc;
+	color:#444;
+}
+
+.gmw-gl-group-count {
+	display: inline;
+	margin-right:5px;
+}
+
+.gmw-gl-map-wrapper {
+	margin-top:10px
+}
+
+.gmw-gl-within-message-wrapper {
+	margin-left:5px;
+	display: inline;
+	margin-bottom:10px;
+}

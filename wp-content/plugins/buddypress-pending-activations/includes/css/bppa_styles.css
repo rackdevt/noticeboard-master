@@ -1,0 +1,17 @@
+#bp-pending-activations .search-box {
+	margin: 20px 0;
+}
+
+#bp-pending-activations td.username a {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#bp-pending-activations td.username div.row-actions a {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#bp-pending-activations span.activate a {
+	color: #339900;
+}

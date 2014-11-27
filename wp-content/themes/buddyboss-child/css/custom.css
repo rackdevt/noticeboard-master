@@ -1,0 +1,651 @@
+/*--------------------------------------------------------------
+This is your custom stylesheet.
+
+Add your own styles here to make theme updates easier.
+To override any styles from other stylesheets, simply copy them into here and edit away.
+
+Make sure to respect the media queries! Otherwise you may
+accidentally add desktop styles to the mobile layout.
+
+You're the boss, so have fun editing!
+
+--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Global Styles
+2.0 - Responsive media queries (mobile styles)
+	2.1 - MAXIMUM width of 720 pixels (phones landscape)
+	2.2 - MAXIMUM width of 380 pixels (phones portrait)
+	2.3 - MINIMUM width of 721 pixels (tablets+)
+	2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Global Styles
+--------------------------------------------------------------*/
+
+
+
+/*
+.just_an_example {
+	color: black;
+}
+*/
+
+
+
+/*--------------------------------------------------------------
+2.0 - Responsive media queries (mobile styles)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.1 - MAXIMUM width of 720 pixels (phones landscape)
+--------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.2 - MAXIMUM width of 380 pixels (phones portrait)
+--------------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.3 - MINIMUM width of 721 pixels (tablets+)
+--------------------------------------------------------------*/
+@media screen and (min-width: 721px)  {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+@media screen and (min-width: 1040px)  {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+z.10 - GNB Dev Team Custom Styles
+--------------------------------------------------------------*/
+
+body {
+	letter-spacing: .02em;
+}
+
+
+h1.entry-title {
+position:relative;
+z-index: 2;
+	margin-left: 0px;
+	margin-top: -5px;
+	font-family: Rockwell, Georgia, Times, serif;
+	font-weight: 400;
+	font-size: 27px;
+	color: #444444;
+}
+
+.strapline {
+	font-family: Rockwell, Georgia, Times, serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #444444;
+}
+
+#landing3 {background: #231f20 url(../../../uploads/gnbpanel-landing-v3.jpg) no-repeat center left; /*margin-top: 5px; width: 1024px; margin-top: -65px !important;*/ margin-top: -95px !important; width: 100%; float: left; /*height: 599px;*/ height: 784px;}
+#landing3 form {/*width: 350px; height: 380px;*/ width: 280px; height: 420px; /*background: #fff;*/ background: #ffffef; float: right; margin: 40px 0 0;  box-shadow: 7px 7px 3px #888888; border-bottom-right-radius: 1em; border-bottom-left-radius: 1em; }
+#landing3 .gform_wrapper .gform_heading, #landing3 .gform_wrapper h2.gsection_title, #landing3 .gform_wrapper .gsection_description {width: 100%;}
+#landing3 .gform_wrapper h3.gform_title {width: 99.5%;}
+#landing3 form .gform_title {background: #231f20; color: #fff; text-align: center; font-size: 1.5em; padding: 10px 0; margin: 0;  border: 1px solid #fff;}
+#landing3 .gform_body, #landing3 .gform_description {/*padding: 10px 10px 0;*/padding: 0 10px 0; display: block;}
+#landing3 .gform_wrapper .gform_heading {margin-bottom: 0; }
+#landing3 .gform_wrapper .top_label .gfield_label {display: none;}
+#landing3 .gform_wrapper .ginput_complex label {line-height: 1em; width: 100%; letter-spacing: 0;}
+#landing3 .gform_wrapper .ginput_complex {float: left; width: 100%;}
+#landing3 form h2 {color: #000;}
+#landing3 .gform_wrapper .gform_footer input.button, #landing3 .gform_wrapper .gform_footer input[type=submit] {display: block; /*margin: 5px auto;*/ margin-left:170px; text-transform: uppercase;-webkit-box-shadow: 4px 4px 8px 0 #231f20; box-shadow: 4px 4px 8px 0 #231f20; padding: 4px 20px;}
+#sub-comment {padding: 30px 50px; text-align: center; float: left; font-size: 18px !important;}
+span.author {font-weight: bold; margin-left: 5px; display: inline-block;}
+
+
+/***  For header area  OA - 141014 ****/
+header#masthead.site-header { height:78px; }
+nav#site-navigation.main-navigation {margin-top:-120px; background-color:transparent; }
+nav#site-navigation-pam.main-navigation {margin-top:-94px; background-color:transparent !important; float:right; }
+div.nav-inner { float:right; }
+
+ul#menu-header_menu.nav-menu.clearfix { background-color: transparent; }
+
+
+
+/* remove logout form */
+div#sidebar div#sidebar-me {
+display: none !important;
+}
+#top-login-form {float: right; width: 300px; font-family: Rockwell, Georgia, Times, "Times New Roman", serif; text-align: left; } 
+#top-nav #top-login-form label {font-weight: normal !important; margin: 0 !important; color: #fff; font-size: 12px; line-height: 1.5em;}
+#top-login-form input[type="text"], #top-login-form input[type="password"] {height: 15px !important; padding: 1px !important; font-size: 11px; width: 90%; line-height: 1.5em;}
+#top-login-form input[type="submit"]  {float: right; background: none; border: 1px solid #fff; text-shadow: none; color: #fff; padding: 1px 5px; font-size: 12px; /*margin: 0 10px 0 0;*/ margin: 5px 10px 0 0;}
+.data {float: left; width: 50%;}
+.forgetmenot {font-size: 12px; /*margin: 0 !important;*/ margin: 6px 0 0 0 !important;}
+
+
+.standard-form textarea, .standard-form input[type="text"], .standard-form select, .standard-form input[type="password"], .dir-search input[type="text"] {
+border: 1px solid #CCC;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+color: #888;
+font-family: inherit;
+font-size: 14px;
+padding: 6px;
+}
+
+.standard-form input:focus, .standard-form textarea:focus, .standard-form select:focus {
+background: #FAFAFA;
+}
+
+div#sub-comment {
+padding: 10px 0 0;
+width: 100%;
+text-align: center;
+float: left;
+font-size: 14px !important;
+height: 100px; 
+}
+
+.hgt-080 { height:80px; }
+.hgt-100 { height:100px; }
+.hgt-120 { height:120px; }
+.hgt-150 { height:150px; }
+
+footer.entry-meta { display: none !important; }
+
+div#posts-count.pag-count { display: none; }
+#buddypress div#item-header div#item-meta { color: #444; } 
+
+
+h1, h2, h3, h4, h5, h6 {
+/*margin: 0 0 15px 0;*/
+line-height: 1.2;
+font-family: Rockwell, Georgia, Times, "Times New Roman", serif !important;
+font-weight: 600 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+letter-spacing: .01em !important;
+}
+
+.entry-content h3, .comment-content h3 {
+font-size: 20px;
+line-height: normal;
+}
+
+.site-content article {
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+
+.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+font-size: 19px;
+line-height: 2.181818182;
+font-weight: 600;
+/*text-transform: uppercase;*/
+color: #636363;
+}
+
+.av-credits, a#my-credits, a#create-new { display:none !important; }
+
+div#item-buttons.profile { display: none; }
+
+/*** Homepage form - temporary!!! 27-Oct-2014  ***/
+div.gform_footer.left_label { display: none; }
+
+#landing3-temp {background: #231f20 url(../../../uploads/gnbpanel-landing2.png) no-repeat center left; /*margin-top: 5px; width: 1024px;*/margin-top: -65px !important; width: 100%; float: left; height: 599px;}
+#landing3-temp form {/*width: 350px; height: 380px;*/ width: 280px; height: 200px; background: #fff; float: right; margin: 40px 0 0; }
+#landing3-temp .gform_wrapper .gform_heading, #landing3-temp .gform_wrapper h2.gsection_title, #landing3-temp .gform_wrapper .gsection_description {width: 100%;}
+#landing3-temp .gform_wrapper h3.gform_title {width: 99.5%;}
+#landing3-temp form .gform_title {background: #231f20; color: #fff; text-align: center; font-size: 1.5em; padding: 10px 0; margin: 0;  border: 1px solid #fff;}
+#landing3-temp .gform_body, #landing3-temp .gform_description {/*padding: 10px 10px 0;*/padding: 0 10px 0; display: block;}
+#landing3-temp .gform_wrapper .gform_heading {margin-bottom: 0; }
+#landing3-temp .gform_wrapper .top_label .gfield_label {display: none;}
+#landing3-temp .gform_wrapper .ginput_complex label {line-height: 1em; width: 100%; letter-spacing: 0;}
+#landing3-temp .gform_wrapper .ginput_complex {float: left; width: 100%;}
+#landing3-temp form h2 {color: #000;}
+#landing3-temp .gform_wrapper .gform_footer input.button, #landing3-temp .gform_wrapper .gform_footer input[type=submit] 
+       {display: block; margin: 5px auto; text-transform: uppercase;-webkit-box-shadow: 4px 4px 8px 0 #231f20; box-shadow: 4px 4px 8px 0 #231f20; padding: 4px 20px;}
+
+
+div#comments.comments-area { display:none !important; }
+
+/******* Gravity Forms custom css  ****/
+.gform_wrapper .gsection {
+border-bottom: none;
+padding: 0 0 0 0;
+margin: 5px 0;
+clear: both;
+}
+
+.gform_wrapper .description_above .gfield_description {
+padding: 0 0 0 0;
+}
+
+/*
+.gform_wrapper .ginput_complex label, .gform_wrapper .gfield_time_hour label, .gform_wrapper .gfield_time_minute label, .gform_wrapper .gfield_date_month label, .gform_wrapper .gfield_date_day label, .gform_wrapper .gfield_date_year label, .gform_wrapper .instruction {
+display: none;
+}
+
+.gform_wrapper .gfield_description, div.gfield_description {
+padding: 10px 0 0 0;
+display: none;
+}*/
+
+.gform_wrapper .ginput_complex .ginput_left, .gform_wrapper .ginput_complex .ginput_right, .gform_wrapper .ginput_complex .ginput_full {
+margin-top:25px;
+}
+
+
+/*.gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container  {
+	margin-top: 12px;
+	margin-top: 42px;
+}*/
+
+
+/*div.ginput_container { margin-bottom:10px; }*/
+
+.gform_wrapper .ginput_complex .ginput_left, .gform_wrapper .ginput_complex .ginput_right, .gform_wrapper .ginput_complex .ginput_full {
+overflow: visible;
+min-height: 33px;
+}
+
+#landing3 .gform_wrapper .ginput_complex label {
+margin-top:-40px;
+}
+
+.gform_wrapper .gform_footer {
+padding: 5px 0 5px 0;
+margin: 5px 0 0 0;
+clear: both;
+}
+
+div#respond.comment-respond { display: none; }
+
+/* ==========================================================================
+   Gravity Forms
+   ========================================================================== */
+
+/**
+ * This will hide the default Gravity Forms label
+ */
+#gform_wrapper_1 .gform_body .top_label .gfield_label {
+	display: none;
+}
+.gform_wrapper div.validation_error {
+margin-top:-27px;
+margin-left:5px;
+font-size: 0.9em;
+}
+
+/** Remove RSS tab from Group area  ***/
+#buddypress div#subnav.item-list-tabs ul li.feed {
+display: none;
+}
+
+/* custom css by Nathaniel 2014 */
+
+.gnb-social-share {
+	margin: 20px 0 10px 0;
+}
+
+
+/* ---- isotope ---- */
+
+.isotope {
+  max-width: 1200px;
+}
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .item ---- */
+
+.gnb-item {
+  float: left;
+  border: 2px solid #eee;
+  margin: 0 7px 7px 0;
+  padding: 4px;
+ font-size: .9em;
+
+}
+
+.gnb-item h2.posttitle {
+	margin-top: -7px !important;
+	margin-bottom: -4px !important;
+	line-height: 1em !important;
+}
+
+.gnb-item p {
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+
+.gnb-item-1 { 
+	width: 160px; 
+	min-height: 220px;
+	background: #cfe5ae;
+
+}
+
+.gnb-item-2 { 
+	width: 160px;
+	min-height: 260px; 
+	background: #e5f1d5;
+}
+
+.gnb-item-3 { 
+	width: 160px;
+	min-height: 240px; 
+	background: #cfe5ae;
+}
+
+.gnb-item h2 a{
+	font-size: .7em !important;
+	margin: 4px 0 4px 0;
+	padding: 0 !important;
+	font-family: 'Open Sans', Sans-Serif !important;
+	line-height: .4em !important;
+}
+
+.gnb-item p {
+	font-size: 1em !important;
+	margin: 8px 0 8px 0;
+	padding: 0;
+}
+
+.gnb-item .date {
+	font-size: .9em;
+}
+
+.gnb-item .author-box {
+	text-transform: uppercase;
+	font-size: 1.05em;
+	font-weight: 700;
+	margin: 0 0 6px 0;
+}
+
+.gnb-item .gnb-ad-buttons {
+	margin-top: 14px;
+}
+
+.wanted .author-box, .wanted .date {
+	color: #6a94a8 !important;
+}
+
+.offered .author-box, .offered .date{
+	color: #b72842 !important;
+}
+
+.gnb-noticeboard-header h1 {
+		font-size: 2.2em !important;
+}
+
+.gnb-noticeboard-header h2 {
+		font-size: 1.8em !important;
+}
+
+.gnb-image-responsive {
+	width: 100%;
+}
+
+.gnb-blog-pagination {
+	height: 30px;
+}
+
+.gnb-blog-pagination .pagination-links {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-bottom: 10px;
+	float: none;
+	}
+
+.gnb-greyscale {
+-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+filter: gray; filter: grayscale(100%);
+filter: url(desaturate.svg#greyscale);
+}
+
+#gnb-group-masthead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100px;
+}
+
+.gnb-profile-header {
+	position: relative;
+	top: -40px;
+	left: -470px;
+	height: 225px;
+	width: 400%;
+	background: #feb863;
+}
+	
+.gnb-group-header {
+	position: relative;
+	top: -40px;
+	left: -470px;
+	height: 225px;
+	width: 300%;
+	background: #D8E7D4;
+}
+
+.gnb-group-header #item-buttons {
+	position: relative;
+	top: 24px;
+	left: 360px;
+}
+
+.gnb-group-header #item-meta {
+	width: 52%;
+	position: relative;
+	top: -12px;
+}
+
+.gnb-group-header .gnb-offered-group-title {
+	position: relative;
+	top: 0px;
+	left: 650px;
+}
+
+.gnb-group-header .gnb-offered-group {
+	width: 26% !important;
+	position: relative;
+	top: -12px;
+}
+
+#buddypress #item-header img.avatar {
+	position: absolute;
+	top: 20px;
+	left: 470px;
+	border: 1px solid #666 !important;
+	float: none;
+}	
+	
+.gnb-profile-header #item-header-content,  .gnb-group-header #item-header-content {
+	position: absolute;
+	top: 80px;
+	left: 650px;
+	float: none;
+}
+
+.gnb-group-header .entry-title {
+	position: absolute;
+	top: 60px;
+	left: -50px;
+	float: none;
+}
+
+
+
+h1.entry-title {
+	font-size: 1.9em !important;
+	line-height: .95em !important;
+}
+
+.entry-header {
+	width: 98% !important;
+}
+
+.bp-user .entry-title, .groups .entry-title {
+	width: 98% !important;
+	position: relative;
+	left: 166px;
+	top: -14px;
+}
+
+.group-button {
+	position: absolute;
+	left: -125px;
+	bottom: -4px;
+	width: 140px;
+	height: 26px;
+	padding: 0 !important;
+
+}
+
+#groups-list .group-button {
+	position: absolute;
+	left: 0px;
+	top: 18px;
+	width: 140px;
+	height: 26px;
+	padding: 0 !important;
+
+}
+
+.follow-button {
+	margin-top: 8px;
+}
+
+#classifieds-personal-li {
+	display: none;
+}
+
+.gnb-group-invite-hack {
+	display: none;
+}
+
+.item-list-tabs .selected a {
+	color: #C41152 !important;
+}
+
+
+
+#news-feed-personal-li {
+	display: none !important;
+}
+
+.gnb-group-classifieds {
+	position: relative;
+	top: -50px;
+}
+
+.user-nicename {
+	color: white !important;
+	font-size: 1.4em !important;
+}
+
+.gnb-exiting-members-invite {
+	display: none;
+}
+
+.gnb-search-members {
+	width: 300px !important;
+}
+
+#invite-anyone-invite-list {
+	display: none;
+}
+
+#invite-anyone-member-list {
+	width: 350px !important;
+}
+
+.gnb-exiting-members-invite #message p {
+	margin-top: -42px;
+}
+
+.group-subscription-div {
+	display: none;
+}
+
+#buddypress #item-nav {
+	margin-top: 20px;
+}
+
+.archive-header h1 {
+	font-size: 2em !important;
+	}
+
+.archive-header h2 {
+	font-size: 1.6em !important;
+}
+
+.gnb-sub-cat-title {
+	font-size: 1.9em !important;
+}
+
+.gnb-respond {
+	float: right;
+}
+

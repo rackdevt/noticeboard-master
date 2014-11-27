@@ -1,0 +1,61 @@
+#gmaps-iw-template-holder {
+	z-index: 99999999999;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	opacity: 0.96;
+	display:none;
+}
+
+.gmgl-iw-template-inner {
+	position:relative;
+	width:450px;
+	min-height:340px;
+	margin:0 auto;
+	margin-top:240px;
+	background: white;
+	padding:20px;
+	border:1px solid #DEDEDE;
+	border-radius: 5px;
+	background: #FDFDFD;
+}
+
+.gmgl-iw-close-button {
+	position: absolute;
+	right:-12px;
+	top:-12px;
+	border:1px solid #d5d5d5;
+	background: #f1f1f1;
+	padding: 0px 8px 3px 9px;
+	border-radius: 20px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.gmgl-iw-title {
+	margin:0px 0px 15px;
+        font-size:26px;
+}
+
+.gmgl-iw-distance-wrapper {
+	font-size: 14px;
+	padding-top: 8px;
+	float:right
+}
+
+.gmgl-iw-avatar-wrapper {
+	float: left;
+	margin-right:15px;
+}
+
+.gmgl-iw-avatar-wrapper img {
+	padding:5px;
+	border:1px solid #d5d5d5;
+	background: #f1f1f1;
+        max-width:100px;
+        height:auto
+}

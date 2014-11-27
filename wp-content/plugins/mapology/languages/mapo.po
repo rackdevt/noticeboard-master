@@ -1,0 +1,2305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextGEN ImageFlow\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-21 08:29+0530\n"
+"PO-Revision-Date: 2011-11-21 08:29+0530\n"
+"Last-Translator: Boris Glumpler <boris@shabushabu.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _e;__;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../admin/mapo-admin.php:71
+msgid "Update Available"
+msgstr ""
+
+#: ../admin/mapo-admin.php:73
+msgid "Maps"
+msgstr ""
+
+#: ../admin/mapo-admin.php:74
+#: ../admin/mapo-settings.php:20
+msgid "Settings"
+msgstr ""
+
+#: ../admin/mapo-admin.php:75
+#: ../admin/mapo-hooks.php:20
+msgid "Hooks"
+msgstr ""
+
+#: ../admin/mapo-admin.php:76
+#: ../admin/mapo-readme.php:20
+msgid "Readme"
+msgstr ""
+
+#: ../admin/mapo-admin.php:77
+#: ../admin/mapo-changelog.php:20
+msgid "Changelog"
+msgstr ""
+
+#: ../admin/mapo-admin.php:98
+#, php-format
+msgid "A new version of Mapology is available! Please download the latest version <a href=\"http://shabushabu.eu/downloads/?category=15\">here</a>. <a style=\"float:right\" href=\"%s\">Remove</a>"
+msgstr ""
+
+#: ../admin/mapo-admin.php:179
+msgid "Get help for Mapology"
+msgstr ""
+
+#: ../admin/mapo-admin.php:181
+#: ../admin/mapo-admin.php:275
+msgid "Support Forums"
+msgstr ""
+
+#: ../admin/mapo-admin.php:182
+#: ../admin/mapo-admin.php:276
+msgid "Donate"
+msgstr ""
+
+#: ../admin/mapo-admin.php:198
+msgid "A new version of Mapology is available! Please download the latest version <a href=\"http://shabushabu.eu/downloads/?category=15\">here</a>."
+msgstr ""
+
+#: ../admin/mapo-hooks.php:33
+msgid "In WordPress there are 2 kinds of hooks: <i>actions</i> and <i>filters</i>.<br />Actions let you add content and filters let you manipulate content. Below you can find a reference of all hooks used in Mapology."
+msgstr ""
+
+#: ../admin/mapo-hooks.php:35
+msgid "Actions"
+msgstr ""
+
+#: ../admin/mapo-hooks.php:86
+msgid "Filters"
+msgstr ""
+
+#: ../admin/mapo-install.php:113
+#: ../admin/mapo-process.php:141
+msgid "Locations"
+msgstr ""
+
+#: ../admin/mapo-process.php:23
+msgid "Start and end have to be specified"
+msgstr ""
+
+#: ../admin/mapo-process.php:73
+msgid "Over daily query limit on Google."
+msgstr ""
+
+#: ../admin/mapo-process.php:78
+msgid "Coordinates updated successfully."
+msgstr ""
+
+#: ../admin/mapo-process.php:163
+msgid "Update Successfully"
+msgstr ""
+
+#: ../admin/mapo-settings.php:59
+msgid "Replot Coordinates"
+msgstr ""
+
+#: ../admin/mapo-settings.php:61
+msgid "Start"
+msgstr ""
+
+#: ../admin/mapo-settings.php:62
+msgid "End"
+msgstr ""
+
+#: ../admin/mapo-settings.php:63
+msgid "Only entries without coordinates"
+msgstr ""
+
+#: ../admin/mapo-settings.php:64
+msgid "Update coordinates"
+msgstr ""
+
+#: ../admin/mapo-settings.php:64
+msgid "Start is the database entry to start with and end is how many entries should get replotted. Google restricts the daily requests to 2.500/day."
+msgstr ""
+
+#: ../admin/mapo-settings.php:68
+msgid "Maps Page"
+msgstr ""
+
+#: ../admin/mapo-settings.php:72
+msgid "- None -"
+msgstr ""
+
+#: ../admin/mapo-settings.php:75
+#, php-format
+msgid "Pick the main map page. Or <a href=\"%s\" class=\"button\">create it</a> if it does not exist yet."
+msgstr ""
+
+#: ../admin/mapo-settings.php:79
+msgid "Main Slug"
+msgstr ""
+
+#: ../admin/mapo-settings.php:82
+msgid "Only lowercase, a-z,0-9, plus some special characters like - (gets sanitized automatically)."
+msgstr ""
+
+#: ../admin/mapo-settings.php:86
+msgid "Map Language"
+msgstr ""
+
+#: ../admin/mapo-settings.php:90
+msgid "ARABIC"
+msgstr ""
+
+#: ../admin/mapo-settings.php:91
+#: ../admin/mapo-settings.php:103
+msgid "BASQUE"
+msgstr ""
+
+#: ../admin/mapo-settings.php:92
+msgid "BULGARIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:93
+msgid "BENGALI"
+msgstr ""
+
+#: ../admin/mapo-settings.php:94
+msgid "CATALAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:95
+msgid "CZECH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:96
+msgid "DANISH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:97
+msgid "GERMAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:98
+msgid "GREEK"
+msgstr ""
+
+#: ../admin/mapo-settings.php:99
+msgid "ENGLISH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:100
+msgid "ENGLISH (AUSTRALIAN)"
+msgstr ""
+
+#: ../admin/mapo-settings.php:101
+msgid "ENGLISH (GREAT BRITAIN)"
+msgstr ""
+
+#: ../admin/mapo-settings.php:102
+msgid "SPANISH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:104
+msgid "FINNISH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:105
+msgid "FILIPINO"
+msgstr ""
+
+#: ../admin/mapo-settings.php:106
+msgid "FRENCH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:107
+msgid "GALICIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:108
+msgid "GUJARATI"
+msgstr ""
+
+#: ../admin/mapo-settings.php:109
+msgid "HINDI"
+msgstr ""
+
+#: ../admin/mapo-settings.php:110
+msgid "CROATIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:111
+msgid "HUNGARIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:112
+msgid "INDONESIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:113
+msgid "ITALIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:114
+msgid "HEBREW"
+msgstr ""
+
+#: ../admin/mapo-settings.php:115
+msgid "JAPANESE"
+msgstr ""
+
+#: ../admin/mapo-settings.php:116
+msgid "KANNADA"
+msgstr ""
+
+#: ../admin/mapo-settings.php:117
+msgid "KOREAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:118
+msgid "LITHUANIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:119
+msgid "LATVIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:120
+msgid "MALAYALAM"
+msgstr ""
+
+#: ../admin/mapo-settings.php:121
+msgid "MARATHI"
+msgstr ""
+
+#: ../admin/mapo-settings.php:122
+msgid "DUTCH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:123
+msgid "NORWEGIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:124
+msgid "POLISH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:125
+msgid "PORTUGUESE"
+msgstr ""
+
+#: ../admin/mapo-settings.php:126
+msgid "PORTUGUESE (BRAZIL)"
+msgstr ""
+
+#: ../admin/mapo-settings.php:127
+msgid "PORTUGUESE (PORTUGAL)"
+msgstr ""
+
+#: ../admin/mapo-settings.php:128
+msgid "ROMANIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:129
+msgid "RUSSIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:130
+msgid "SLOVAK"
+msgstr ""
+
+#: ../admin/mapo-settings.php:131
+msgid "SLOVENIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:132
+msgid "SERBIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:133
+msgid "SWEDISH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:134
+msgid "TAGALOG"
+msgstr ""
+
+#: ../admin/mapo-settings.php:135
+msgid "TAMIL"
+msgstr ""
+
+#: ../admin/mapo-settings.php:136
+msgid "TELUGU"
+msgstr ""
+
+#: ../admin/mapo-settings.php:137
+msgid "THAI"
+msgstr ""
+
+#: ../admin/mapo-settings.php:138
+msgid "TURKISH"
+msgstr ""
+
+#: ../admin/mapo-settings.php:139
+msgid "UKRAINIAN"
+msgstr ""
+
+#: ../admin/mapo-settings.php:140
+msgid "VIETNAMESE"
+msgstr ""
+
+#: ../admin/mapo-settings.php:141
+msgid "CHINESE (SIMPLIFIED)"
+msgstr ""
+
+#: ../admin/mapo-settings.php:142
+msgid "CHINESE (TRADITIONAL)"
+msgstr ""
+
+#: ../admin/mapo-settings.php:147
+msgid "Group Contact Details"
+msgstr ""
+
+#: ../admin/mapo-settings.php:149
+msgid "Check to enable group contact details."
+msgstr ""
+
+#: ../admin/mapo-settings.php:153
+msgid "Routes"
+msgstr ""
+
+#: ../admin/mapo-settings.php:155
+msgid "Check to enable routes."
+msgstr ""
+
+#: ../admin/mapo-settings.php:159
+msgid "Group Attachment"
+msgstr ""
+
+#: ../admin/mapo-settings.php:161
+msgid "Check to enable route attachments for groups."
+msgstr ""
+
+#: ../admin/mapo-settings.php:165
+msgid "Custom Post Type"
+msgstr ""
+
+#: ../admin/mapo-settings.php:167
+msgid "Check to enable the location post type."
+msgstr ""
+
+#: ../admin/mapo-settings.php:172
+msgid "Enable oEmbed"
+msgstr ""
+
+#: ../admin/mapo-settings.php:174
+msgid "Check to enable oembed support for route descriptions."
+msgstr ""
+
+#: ../admin/mapo-settings.php:179
+msgid "Post Coordinates"
+msgstr ""
+
+#: ../admin/mapo-settings.php:181
+msgid "Check to enable post coordinates."
+msgstr ""
+
+#: ../admin/mapo-settings.php:185
+msgid "Location Field ID"
+msgstr ""
+
+#: ../admin/mapo-settings.php:196
+msgid "Extra Location Field IDs"
+msgstr ""
+
+#: ../admin/mapo-settings.php:204
+msgid "System"
+msgstr ""
+
+#: ../admin/mapo-settings.php:208
+msgid "Kilometers"
+msgstr ""
+
+#: ../admin/mapo-settings.php:209
+msgid "Miles"
+msgstr ""
+
+#: ../admin/mapo-settings.php:214
+msgid "Group Map Types"
+msgstr ""
+
+#: ../admin/mapo-settings.php:226
+msgid "Group Map Zoom"
+msgstr ""
+
+#: ../admin/mapo-settings.php:232
+msgid "Use enhanced user map?"
+msgstr ""
+
+#: ../admin/mapo-settings.php:234
+msgid "Check to enable the enhanced members map."
+msgstr ""
+
+#: ../admin/mapo-settings.php:238
+msgid "User Map Types"
+msgstr ""
+
+#: ../admin/mapo-settings.php:250
+msgid "User Map Zoom"
+msgstr ""
+
+#: ../admin/mapo-settings.php:256
+msgid "User Overview Type"
+msgstr ""
+
+#: ../admin/mapo-settings.php:268
+msgid "User Overview Zoom"
+msgstr ""
+
+#: ../admin/mapo-settings.php:274
+msgid "Group Overview Type"
+msgstr ""
+
+#: ../admin/mapo-settings.php:286
+msgid "Group Overview Zoom"
+msgstr ""
+
+#: ../admin/mapo-settings.php:292
+msgid "Default Map Location"
+msgstr ""
+
+#: ../admin/mapo-settings.php:300
+msgid "Update"
+msgstr ""
+
+#: ../admin/mapo-upgrade.php:29
+msgid "Upgrade"
+msgstr ""
+
+#: ../admin/mapo-upgrade.php:34
+#: ../admin/mapo-upgrade.php:57
+#: ../admin/mapo-upgrade.php:81
+#: ../admin/mapo-upgrade.php:98
+#: ../admin/mapo-upgrade.php:118
+#, php-format
+msgid "Upgrading database structure for DB %s..."
+msgstr ""
+
+#: ../admin/mapo-upgrade.php:48
+#: ../admin/mapo-upgrade.php:72
+#: ../admin/mapo-upgrade.php:89
+#: ../admin/mapo-upgrade.php:109
+#: ../admin/mapo-upgrade.php:129
+msgid "Done! Please refresh this page."
+msgstr ""
+
+#: ../admin/mapo-upgrade.php:136
+msgid "Upgrade failed!"
+msgstr ""
+
+#: ../admin/mapo-upgrade.php:165
+#, php-format
+msgid "Could not add column %s in table %s<br />"
+msgstr ""
+
+#: ../core/mapo-activity.php:67
+#, php-format
+msgid "%1$s published the route <a href=\"%2$s\">%3$s</a>"
+msgstr ""
+
+#: ../core/mapo-activity.php:89
+#, php-format
+msgid "%1$s edited the route <a href=\"%2$s\">%3$s</a>"
+msgstr ""
+
+#: ../core/mapo-activity.php:114
+#, php-format
+msgid "%1$s updated their location"
+msgstr ""
+
+#: ../core/mapo-activity.php:134
+msgid "Show New Routes"
+msgstr ""
+
+#: ../core/mapo-activity.php:135
+msgid "Show Edited Routes"
+msgstr ""
+
+#: ../core/mapo-activity.php:136
+msgid "Show Route Comments"
+msgstr ""
+
+#: ../core/mapo-activity.php:139
+msgid "Show New Locations"
+msgstr ""
+
+#: ../core/mapo-core.php:65
+msgid "Map"
+msgstr ""
+
+#: ../core/mapo-core.php:111
+msgid "Map Settings"
+msgstr ""
+
+#: ../core/mapo-core.php:126
+msgid "Changes Saved."
+msgstr ""
+
+#: ../core/mapo-core.php:137
+msgid "Who can see my location?"
+msgstr ""
+
+#: ../core/mapo-core.php:139
+msgid "Everyone"
+msgstr ""
+
+#: ../core/mapo-core.php:142
+msgid "Members"
+msgstr ""
+
+#: ../core/mapo-core.php:145
+msgid "Friends"
+msgstr ""
+
+#: ../core/mapo-core.php:148
+msgid "Nobody"
+msgstr ""
+
+#: ../core/mapo-core.php:157
+msgid "Save Changes"
+msgstr ""
+
+#: ../core/mapo-feeds.php:19
+msgid "Latest Group Routes"
+msgstr ""
+
+#: ../core/mapo-feeds.php:23
+msgid "Latest User Routes"
+msgstr ""
+
+#: ../core/mapo-feeds.php:26
+msgid "Latest Sitewide Events"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:39
+msgid "* Street"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:42
+msgid "* Postcode"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:45
+msgid "* City"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:48
+msgid "* Country"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:51
+msgid "Telephone"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:54
+msgid "Mobile"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:57
+msgid "Fax"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:60
+msgid "Website"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:112
+#: ../core/mapo-groupinfo.php:130
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:149
+msgid "Contact Details"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:158
+msgid "Telephone: "
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:159
+msgid "Mobile: "
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:160
+msgid "Fax: "
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:161
+msgid "Website: "
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:227
+msgid "Afghanistan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:227
+msgid "Albania"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:227
+msgid "Algeria"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:227
+msgid "American Samoa"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:227
+msgid "Andorra"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:228
+msgid "Angola"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:228
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:228
+msgid "Argentina"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:228
+msgid "Armenia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:228
+msgid "Australia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:229
+msgid "Austria"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:229
+msgid "Azerbaijan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:229
+msgid "Bahamas"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:229
+msgid "Bahrain"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:229
+msgid "Bangladesh"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:230
+msgid "Barbados"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:230
+msgid "Belarus"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:230
+msgid "Belgium"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:230
+msgid "Belize"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:230
+msgid "Benin"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:230
+msgid "Bermuda"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:231
+msgid "Bhutan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:231
+msgid "Bolivia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:231
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:231
+msgid "Botswana"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:231
+msgid "Brazil"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:232
+msgid "Brunei"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:232
+msgid "Bulgaria"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:232
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:232
+msgid "Burundi"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:232
+msgid "Cambodia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:233
+msgid "Cameroon"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:233
+msgid "Canada"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:233
+msgid "Cape Verde"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:233
+msgid "Central African Republic"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:233
+msgid "Chad"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:234
+msgid "Chile"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:234
+msgid "China"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:234
+msgid "Colombia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:234
+msgid "Comoros"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:234
+msgid "Congo"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:234
+msgid "Costa Rica"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:235
+msgid "C&ocirc;te d'Ivoire"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:235
+msgid "Croatia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:235
+msgid "Cuba"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:235
+msgid "Cyprus"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:235
+msgid "Czech Republic"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:236
+msgid "Denmark"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:236
+msgid "Djibouti"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:236
+msgid "Dominica"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:236
+msgid "Dominican Republic"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:236
+msgid "East Timor"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:237
+msgid "Ecuador"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:237
+msgid "Egypt"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:237
+msgid "El Salvador"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:237
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:237
+msgid "Eritrea"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:238
+msgid "Estonia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:238
+msgid "Ethiopia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:238
+msgid "Fiji"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:238
+msgid "Finland"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:238
+msgid "France"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:238
+msgid "Gabon"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:239
+msgid "Gambia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:239
+msgid "Georgia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:239
+msgid "Germany"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:239
+msgid "Ghana"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:239
+msgid "Greece"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:239
+msgid "Grenada"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:240
+msgid "Guam"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:240
+msgid "Guatemala"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:240
+msgid "Guinea"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:240
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:240
+msgid "Guyana"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:240
+msgid "Haiti"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:241
+msgid "Honduras"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:241
+msgid "Hong Kong"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:241
+msgid "Hungary"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:241
+msgid "Iceland"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:241
+msgid "India"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:242
+msgid "Indonesia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:242
+msgid "Iran"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:242
+msgid "Iraq"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:242
+msgid "Ireland"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:242
+msgid "Israel"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:242
+msgid "Italy"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:243
+msgid "Jamaica"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:243
+msgid "Japan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:243
+msgid "Jordan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:243
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:243
+msgid "Kenya"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:243
+msgid "Kiribati"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:244
+msgid "North Korea"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:244
+msgid "South Korea"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:244
+msgid "Kuwait"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:244
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:244
+msgid "Laos"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:245
+msgid "Latvia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:245
+msgid "Lebanon"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:245
+msgid "Lesotho"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:245
+msgid "Liberia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:245
+msgid "Libya"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:246
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:246
+msgid "Lithuania"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:246
+msgid "Luxembourg"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:246
+msgid "Macedonia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:246
+msgid "Madagascar"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:247
+msgid "Malawi"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:247
+msgid "Malaysia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:247
+msgid "Maldives"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:247
+msgid "Mali"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:247
+msgid "Malta"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:248
+msgid "Marshall Islands"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:248
+msgid "Mauritania"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:248
+msgid "Mauritius"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:248
+msgid "Mexico"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:248
+msgid "Micronesia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:249
+msgid "Moldova"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:249
+msgid "Monaco"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:249
+msgid "Mongolia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:249
+msgid "Montenegro"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:249
+msgid "Morocco"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:250
+msgid "Mozambique"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:250
+msgid "Myanmar"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:250
+msgid "Namibia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:250
+msgid "Nauru"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:250
+msgid "Nepal"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:251
+msgid "Netherlands"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:251
+msgid "New Zealand"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:251
+msgid "Nicaragua"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:251
+msgid "Niger"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:251
+msgid "Nigeria"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:252
+msgid "Norway"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:252
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:252
+msgid "Oman"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:252
+msgid "Pakistan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:252
+msgid "Palau"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:253
+msgid "Palestine"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:253
+msgid "Panama"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:253
+msgid "Papua New Guinea"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:253
+msgid "Paraguay"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:253
+msgid "Peru"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:254
+msgid "Philippines"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:254
+msgid "Poland"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:254
+msgid "Portugal"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:254
+msgid "Puerto Rico"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:254
+msgid "Qatar"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:255
+msgid "Romania"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:255
+msgid "Russia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:255
+msgid "Rwanda"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:255
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:255
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:256
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:256
+msgid "Samoa"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:256
+msgid "San Marino"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:256
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:257
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:257
+msgid "Senegal"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:257
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:257
+msgid "Seychelles"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:258
+msgid "Sierra Leone"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:258
+msgid "Singapore"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:258
+msgid "Slovakia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:258
+msgid "Slovenia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:258
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:259
+msgid "Somalia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:259
+msgid "South Africa"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:259
+msgid "Spain"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:259
+msgid "Sri Lanka"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:259
+msgid "Sudan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:260
+msgid "Suriname"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:260
+msgid "Swaziland"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:260
+msgid "Sweden"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:260
+msgid "Switzerland"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:260
+msgid "Syria"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:261
+msgid "Taiwan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:261
+msgid "Tajikistan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:261
+msgid "Tanzania"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:261
+msgid "Thailand"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:261
+msgid "Togo"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:262
+msgid "Tonga"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:262
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:262
+msgid "Tunisia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:262
+msgid "Turkey"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:262
+msgid "Turkmenistan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:263
+msgid "Tuvalu"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:263
+msgid "Uganda"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:263
+msgid "Ukraine"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:263
+msgid "United Arab Emirates"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:263
+msgid "United Kingdom"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:264
+msgid "United States"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:264
+msgid "Uruguay"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:264
+msgid "Uzbekistan"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:264
+msgid "Vanuatu"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:264
+msgid "Vatican City"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:265
+msgid "Venezuela"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:265
+msgid "Vietnam"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:265
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:265
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:266
+msgid "Yemen"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:266
+msgid "Zambia"
+msgstr ""
+
+#: ../core/mapo-groupinfo.php:266
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../core/mapo-grouproutes.php:52
+msgid "Route has been successfully removed."
+msgstr ""
+
+#: ../core/mapo-groups.php:209
+msgid "Contact"
+msgstr ""
+
+#: ../core/mapo-helpers.php:143
+msgid "Change location manually"
+msgstr ""
+
+#: ../core/mapo-helpers.php:145
+msgid "Keep my custom location!"
+msgstr ""
+
+#: ../core/mapo-helpers.php:487
+msgid "You are not allowed to view this location"
+msgstr ""
+
+#: ../core/mapo-helpers.php:688
+msgid "Show:"
+msgstr ""
+
+#: ../core/mapo-helpers.php:690
+msgid "Groups"
+msgstr ""
+
+#: ../core/mapo-helpers.php:698
+msgid "Events"
+msgstr ""
+
+#: ../core/mapo-helpers.php:705
+#: ../core/mapo-proximity.php:49
+msgid "Within:"
+msgstr ""
+
+#: ../core/mapo-helpers.php:717
+msgid "Of:"
+msgstr ""
+
+#: ../core/mapo-helpers.php:721
+msgid "My Location"
+msgstr ""
+
+#: ../core/mapo-helpers.php:729
+msgid "Change"
+msgstr ""
+
+#: ../core/mapo-helpers.php:734
+msgid "Submit"
+msgstr ""
+
+#: ../core/mapo-helpers.php:788
+msgid "Group"
+msgstr ""
+
+#: ../core/mapo-helpers.php:792
+#, php-format
+msgid "<strong>Start:</strong> <span class=\"dtstart\">%s</span> (all day event)<br />"
+msgstr ""
+
+#: ../core/mapo-helpers.php:794
+#, php-format
+msgid "<strong>End:</strong> <span class=\"dtend\">%s</span> (all day event)<br />"
+msgstr ""
+
+#: ../core/mapo-helpers.php:797
+#, php-format
+msgid "<strong>Start:</strong> <span class=\"dtstart\">%s</span> at %s<br />"
+msgstr ""
+
+#: ../core/mapo-helpers.php:798
+#, php-format
+msgid "<strong>End:</strong> <span class=\"dtend\">%s</span> at %s<br />"
+msgstr ""
+
+#: ../core/mapo-helpers.php:802
+#, php-format
+msgid "<strong>Timezone:</strong> <span class=\"timezone\">%s</span><br />"
+msgstr ""
+
+#: ../core/mapo-helpers.php:804
+#, php-format
+msgid "<strong>Category:</strong> <span class=\"category\">%s</span><br />"
+msgstr ""
+
+#: ../core/mapo-helpers.php:807
+#, php-format
+msgid "<br /><strong>Website:</strong> <span class=\"url\">%s</span>"
+msgstr ""
+
+#: ../core/mapo-helpers.php:812
+#, php-format
+msgid "<div id=\"map-content\">%s<p style=\"float:left;padding-left:15px;\"><strong><a href=\"%s\">%s</a></strong><br />%s %s %s<strong>Venue:</strong> %s %s %s</p><div style=\"padding-left:70px;float;left;clear:both;\"><strong>Description:</strong> %s</div></div>"
+msgstr ""
+
+#: ../core/mapo-helpers.php:1010
+msgid "Waypoint"
+msgstr ""
+
+#: ../core/mapo-helpers.php:1011
+msgid "Waypoint Title"
+msgstr ""
+
+#: ../core/mapo-helpers.php:1012
+msgid "Waypoint Description"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:18
+msgid "Mapology"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:43
+#: ../core/mapo-mediatab.php:121
+#: ../core/mapo-posts.php:64
+msgid "Post Map"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:118
+msgid "Shortcode Type"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:123
+msgid "Route Maps"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:130
+msgid "Post Map Shortcode"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:132
+msgid "Title"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:135
+msgid "InfoWindow Description"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:139
+#: ../core/mapo-mediatab.php:234
+msgid "Width"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:143
+#: ../core/mapo-mediatab.php:238
+msgid "Height"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:149
+#: ../core/mapo-mediatab.php:244
+msgid "Map Type"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:159
+#: ../core/mapo-mediatab.php:254
+msgid "Float"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:162
+#: ../core/mapo-mediatab.php:257
+msgid "Left"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:163
+#: ../core/mapo-mediatab.php:258
+msgid "Right"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:169
+#: ../core/mapo-mediatab.php:264
+msgid "Enable Navigation Control"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:172
+#: ../core/mapo-mediatab.php:180
+#: ../core/mapo-mediatab.php:190
+#: ../core/mapo-mediatab.php:209
+#: ../core/mapo-mediatab.php:217
+#: ../core/mapo-mediatab.php:227
+#: ../core/mapo-mediatab.php:267
+#: ../core/mapo-mediatab.php:275
+#: ../core/mapo-mediatab.php:285
+msgid "Yes"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:173
+#: ../core/mapo-mediatab.php:181
+#: ../core/mapo-mediatab.php:191
+#: ../core/mapo-mediatab.php:210
+#: ../core/mapo-mediatab.php:218
+#: ../core/mapo-mediatab.php:228
+#: ../core/mapo-mediatab.php:268
+#: ../core/mapo-mediatab.php:276
+#: ../core/mapo-mediatab.php:286
+msgid "No"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:177
+#: ../core/mapo-mediatab.php:272
+msgid "Enable Map Type Control"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:187
+#: ../core/mapo-mediatab.php:282
+msgid "Enable Scale Control"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:195
+#: ../core/mapo-mediatab.php:290
+msgid "Zoom"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:203
+msgid "Route Shortcode Options"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:206
+msgid "Enable Route Title"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:214
+msgid "Enable Route Description"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:224
+msgid "Enable Route Date"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:297
+msgid "Available Routes"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:311
+#, php-format
+msgid "<a href=\"%s\">%s</a> by %s"
+msgstr ""
+
+#: ../core/mapo-mediatab.php:326
+msgid "Insert into editor"
+msgstr ""
+
+#: ../core/mapo-moderation.php:50
+msgid "Flag this route as inappropriate"
+msgstr ""
+
+#: ../core/mapo-post-type.php:21
+msgid "Location"
+msgstr ""
+
+#: ../core/mapo-post-type.php:22
+msgid "Add New"
+msgstr ""
+
+#: ../core/mapo-post-type.php:23
+msgid "Add New Location"
+msgstr ""
+
+#: ../core/mapo-post-type.php:24
+msgid "Edit Location"
+msgstr ""
+
+#: ../core/mapo-post-type.php:25
+msgid "New Location"
+msgstr ""
+
+#: ../core/mapo-post-type.php:26
+msgid "View Location"
+msgstr ""
+
+#: ../core/mapo-post-type.php:27
+msgid "Search Locations"
+msgstr ""
+
+#: ../core/mapo-post-type.php:28
+msgid "No Locations found"
+msgstr ""
+
+#: ../core/mapo-post-type.php:29
+msgid "No locations found in trash"
+msgstr ""
+
+#: ../core/mapo-post-type.php:55
+msgid "Continents"
+msgstr ""
+
+#: ../core/mapo-post-type.php:56
+msgid "Continent"
+msgstr ""
+
+#: ../core/mapo-post-type.php:57
+msgid "Search Continents"
+msgstr ""
+
+#: ../core/mapo-post-type.php:58
+msgid "Popular Continents"
+msgstr ""
+
+#: ../core/mapo-post-type.php:59
+msgid "All Continents"
+msgstr ""
+
+#: ../core/mapo-post-type.php:62
+msgid "Edit Continent"
+msgstr ""
+
+#: ../core/mapo-post-type.php:63
+msgid "Update Continent"
+msgstr ""
+
+#: ../core/mapo-post-type.php:64
+msgid "Add New Continent"
+msgstr ""
+
+#: ../core/mapo-post-type.php:65
+msgid "New Continent"
+msgstr ""
+
+#: ../core/mapo-post-type.php:66
+msgid "Separate continents with commas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:67
+msgid "Add or remove continent"
+msgstr ""
+
+#: ../core/mapo-post-type.php:68
+msgid "Choose from the most used continents"
+msgstr ""
+
+#: ../core/mapo-post-type.php:77
+msgid "Countries"
+msgstr ""
+
+#: ../core/mapo-post-type.php:78
+msgid "Country"
+msgstr ""
+
+#: ../core/mapo-post-type.php:79
+msgid "Search Countries"
+msgstr ""
+
+#: ../core/mapo-post-type.php:80
+msgid "Popular Countries"
+msgstr ""
+
+#: ../core/mapo-post-type.php:81
+msgid "All Countries"
+msgstr ""
+
+#: ../core/mapo-post-type.php:84
+msgid "Edit Country"
+msgstr ""
+
+#: ../core/mapo-post-type.php:85
+msgid "Update Country"
+msgstr ""
+
+#: ../core/mapo-post-type.php:86
+msgid "Add New Country"
+msgstr ""
+
+#: ../core/mapo-post-type.php:87
+msgid "New Country"
+msgstr ""
+
+#: ../core/mapo-post-type.php:88
+msgid "Separate countries with commas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:89
+msgid "Add or remove country"
+msgstr ""
+
+#: ../core/mapo-post-type.php:90
+msgid "Choose from the most used countries"
+msgstr ""
+
+#: ../core/mapo-post-type.php:99
+msgid "Areas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:100
+msgid "Area"
+msgstr ""
+
+#: ../core/mapo-post-type.php:101
+msgid "Search Areas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:102
+msgid "Popular areas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:103
+msgid "All Areas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:106
+msgid "Edit Area"
+msgstr ""
+
+#: ../core/mapo-post-type.php:107
+msgid "Update Area"
+msgstr ""
+
+#: ../core/mapo-post-type.php:108
+msgid "Add New Area"
+msgstr ""
+
+#: ../core/mapo-post-type.php:109
+msgid "New Area"
+msgstr ""
+
+#: ../core/mapo-post-type.php:110
+msgid "Separate areas with commas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:111
+msgid "Add or remove area"
+msgstr ""
+
+#: ../core/mapo-post-type.php:112
+msgid "Choose from the most used areas"
+msgstr ""
+
+#: ../core/mapo-post-type.php:138
+#: ../core/mapo-post-type.php:143
+#: ../core/mapo-routes.php:139
+#: ../core/mapo-routes.php:143
+msgid "Search anything..."
+msgstr ""
+
+#: ../core/mapo-post-type.php:144
+#: ../core/mapo-routes.php:144
+msgid "Search"
+msgstr ""
+
+#: ../core/mapo-posts.php:133
+msgid "Sorry, but you are not allowed to view this map according to its privacy setting."
+msgstr ""
+
+#: ../core/mapo-posts.php:166
+#, php-format
+msgid "Created by %s"
+msgstr ""
+
+#: ../core/mapo-posts.php:282
+msgid "Latitude"
+msgstr ""
+
+#: ../core/mapo-posts.php:286
+msgid "Longitude"
+msgstr ""
+
+#: ../core/mapo-proximity.php:23
+msgid "m"
+msgstr ""
+
+#: ../core/mapo-proximity.php:23
+msgid "km"
+msgstr ""
+
+#: ../core/mapo-routes.php:57
+msgid "Overview"
+msgstr ""
+
+#: ../core/mapo-routes.php:69
+msgid "Edit"
+msgstr ""
+
+#: ../core/mapo-routes.php:81
+msgid "Create"
+msgstr ""
+
+#: ../core/mapo-screen.php:33
+#, php-format
+msgid "The view has been changed to %s-style"
+msgstr ""
+
+#: ../core/mapo-screen.php:73
+msgid "Please enter a comment text"
+msgstr ""
+
+#: ../core/mapo-screen.php:79
+msgid "There was a problem saving your comment. Please try again."
+msgstr ""
+
+#: ../core/mapo-screen.php:85
+#, php-format
+msgid "%s posted a new route comment:"
+msgstr ""
+
+#: ../core/mapo-screen.php:94
+msgid "Your comment has been added."
+msgstr ""
+
+#: ../core/mapo-screen.php:131
+msgid "Your route was successfully deleted!"
+msgstr ""
+
+#: ../core/mapo-screen.php:141
+#: ../core/mapo-screen.php:227
+msgid "Please fill in all fields marked by *."
+msgstr ""
+
+#: ../core/mapo-screen.php:147
+#: ../core/mapo-screen.php:233
+msgid "You need to mark at least one position on the map."
+msgstr ""
+
+#: ../core/mapo-screen.php:155
+msgid "You are not allowed to edit this route."
+msgstr ""
+
+#: ../core/mapo-screen.php:176
+#: ../core/mapo-screen.php:249
+msgid "Your route could not be published. Please try again!"
+msgstr ""
+
+#: ../core/mapo-screen.php:201
+msgid "Your route was successfully edited!"
+msgstr ""
+
+#: ../core/mapo-screen.php:270
+msgid "Your route was successfully published!"
+msgstr ""
+
+#: ../core/mapo-widget.php:16
+msgid "Display Mapology Routes"
+msgstr ""
+
+#: ../core/mapo-widget.php:17
+msgid "Routes Widget"
+msgstr ""
+
+#: ../core/mapo-widget.php:86
+msgid "Title:"
+msgstr ""
+
+#: ../core/mapo-widget.php:90
+msgid "Group ID:"
+msgstr ""
+
+#: ../core/mapo-widget.php:94
+msgid "User ID:"
+msgstr ""
+
+#: ../core/mapo-widget.php:98
+msgid "Max:"
+msgstr ""
+
+#: ../core/mapo-widget.php:102
+msgid "Comma separated event ids:"
+msgstr ""
+
+#: ../core/feeds/mapo-global.php:30
+msgid "Latest Sitewide Routes"
+msgstr ""
+
+#: ../core/feeds/mapo-global.php:33
+#, php-format
+msgid "%s - Latest Sitewide Routes Feed"
+msgstr ""
+
+#: ../core/feeds/mapo-group.php:32
+#: ../core/feeds/mapo-user.php:31
+msgid "Latest Routes"
+msgstr ""
+
+#: ../core/feeds/mapo-group.php:35
+#: ../core/feeds/mapo-user.php:34
+#, php-format
+msgid "%s - Latest Routes Feed"
+msgstr ""
+
+#: ../core/templatetags/mapo-routes.php:195
+#, php-format
+msgid "Page: %s"
+msgstr ""
+
+#: ../core/templatetags/mapo-routes.php:214
+#, php-format
+msgid "Viewing route %1$s to %2$s (of %3$s routes)"
+msgstr ""
+
+#: ../core/templatetags/mapo-routes.php:270
+msgid "Event Admin Avatar"
+msgstr ""
+
+#: ../core/templatetags/mapo-routes.php:977
+msgid "View the next route"
+msgstr ""
+
+#: ../core/templatetags/mapo-routes.php:1002
+msgid "View the previous route"
+msgstr ""
+
+#: ../templates/maps/index.php:20
+msgid "Routes Directory"
+msgstr ""
+
+#: ../templates/maps/index.php:23
+#: ../templates/maps/group/index.php:21
+#: ../templates/maps/member/home.php:44
+msgid "Change to grid style"
+msgstr ""
+
+#: ../templates/maps/index.php:24
+#: ../templates/maps/group/index.php:22
+#: ../templates/maps/member/home.php:45
+msgid "Change to list style"
+msgstr ""
+
+#: ../templates/maps/index.php:37
+#: ../templates/maps/group/index.php:16
+#: ../templates/maps/group/overview.php:14
+#: ../templates/maps/member/home.php:39
+msgid "RSS"
+msgstr ""
+
+#: ../templates/maps/index.php:38
+msgid "All Routes"
+msgstr ""
+
+#: ../templates/maps/index.php:39
+msgid "Overview Map"
+msgstr ""
+
+#: ../templates/maps/group/index.php:16
+#: ../templates/maps/group/overview.php:14
+msgid "RSS Feed"
+msgstr ""
+
+#: ../templates/maps/group/index.php:93
+#: ../templates/maps/member/edit-single.php:90
+#: ../templates/maps/member/edit.php:76
+msgid "No routes were found."
+msgstr ""
+
+#: ../templates/maps/member/activity.php:15
+msgid "Route Activity"
+msgstr ""
+
+#: ../templates/maps/member/activity.php:44
+msgid "Reply"
+msgstr ""
+
+#: ../templates/maps/member/activity.php:49
+msgid "Mark as Favorite"
+msgstr ""
+
+#: ../templates/maps/member/activity.php:49
+msgid "Favorite"
+msgstr ""
+
+#: ../templates/maps/member/activity.php:51
+msgid "Remove Favorite"
+msgstr ""
+
+#: ../templates/maps/member/activity.php:71
+msgid "Post"
+msgstr ""
+
+#: ../templates/maps/member/activity.php:71
+msgid "or press esc to cancel."
+msgstr ""
+
+#: ../templates/maps/member/activity.php:89
+msgid "Be the first to comment on this route."
+msgstr ""
+
+#: ../templates/maps/member/activity.php:91
+msgid "Log in to comment on this route."
+msgstr ""
+
+#: ../templates/maps/member/activity.php:99
+msgid "Add your comment"
+msgstr ""
+
+#: ../templates/maps/member/activity.php:106
+msgid "Send Comment"
+msgstr ""
+
+#: ../templates/maps/member/create.php:16
+#: ../templates/maps/member/edit-single.php:25
+msgid "* Name"
+msgstr ""
+
+#: ../templates/maps/member/create.php:19
+#: ../templates/maps/member/edit-single.php:28
+msgid "Description"
+msgstr ""
+
+#: ../templates/maps/member/create.php:23
+#: ../templates/maps/member/edit-single.php:32
+msgid "Start Date"
+msgstr ""
+
+#: ../templates/maps/member/create.php:28
+#: ../templates/maps/member/edit-single.php:37
+msgid "End Date"
+msgstr ""
+
+#: ../templates/maps/member/create.php:35
+#: ../templates/maps/member/edit-single.php:44
+msgid "The type, zoom level and center of the saved map will reflect the settings in the map above.<br />Note: Waypoint IDs use internal Google Maps IDs."
+msgstr ""
+
+#: ../templates/maps/member/create.php:37
+#: ../templates/maps/member/edit-single.php:46
+msgid "Show Waypoints"
+msgstr ""
+
+#: ../templates/maps/member/create.php:38
+#: ../templates/maps/member/edit-single.php:47
+msgid "Hide Waypoints"
+msgstr ""
+
+#: ../templates/maps/member/create.php:42
+#: ../templates/maps/member/edit-single.php:51
+msgid "* Privacy"
+msgstr ""
+
+#: ../templates/maps/member/create.php:45
+#: ../templates/maps/member/edit-single.php:54
+msgid "Only me"
+msgstr ""
+
+#: ../templates/maps/member/create.php:47
+#: ../templates/maps/member/edit-single.php:56
+msgid "Logged-in members"
+msgstr ""
+
+#: ../templates/maps/member/create.php:48
+#: ../templates/maps/member/edit-single.php:57
+msgid "Everybody"
+msgstr ""
+
+#: ../templates/maps/member/create.php:67
+msgid "Save Route"
+msgstr ""
+
+#: ../templates/maps/member/edit-single.php:76
+msgid "Edit Route"
+msgstr ""
+
+#: ../templates/maps/member/edit-single.php:77
+msgid "Delete Route"
+msgstr ""
+
+#: ../templates/maps/member/single.php:19
+msgid "Download as KML"
+msgstr ""
+
+#: ../templates/maps/view/grid.php:41
+#: ../templates/maps/view/list.php:29
+msgid "Creator:"
+msgstr ""
+
+#: ../templates/maps/view/grid.php:52
+msgid "Route {current} of {total}"
+msgstr ""
+
+#: ../templates/maps/view/grid.php:53
+msgid "Previous"
+msgstr ""
+
+#: ../templates/maps/view/grid.php:54
+msgid "Next"
+msgstr ""
+
+#: ../templates/maps/view/grid.php:55
+msgid "Close"
+msgstr ""
+
+#: ../templates/maps/view/list.php:31
+msgid "Remove"
+msgstr ""
+
+#: ../templates/theme/location-directory.php:36
+#: ../templates/theme/single-location.php:34
+#: ../templates/theme/taxonomy-areas.php:30
+#: ../templates/theme/taxonomy-continents.php:32
+#: ../templates/theme/taxonomy-countries.php:30
+msgid "All Locations"
+msgstr ""
+
+#: ../templates/theme/location-directory.php:56
+#: ../templates/theme/single-location.php:46
+#: ../templates/theme/taxonomy-areas.php:50
+#: ../templates/theme/taxonomy-continents.php:52
+#: ../templates/theme/taxonomy-countries.php:50
+msgid "Permanent Link to"
+msgstr ""
+
+#: ../templates/theme/location-directory.php:58
+#: ../templates/theme/single-location.php:48
+#: ../templates/theme/taxonomy-areas.php:52
+#: ../templates/theme/taxonomy-continents.php:54
+#: ../templates/theme/taxonomy-countries.php:52
+#, php-format
+msgid "Posted in %s"
+msgstr ""
+
+#: ../templates/theme/location-directory.php:69
+#: ../templates/theme/single-location.php:61
+#: ../templates/theme/taxonomy-areas.php:63
+#: ../templates/theme/taxonomy-continents.php:66
+#: ../templates/theme/taxonomy-countries.php:63
+msgid "Countries: "
+msgstr ""
+
+#: ../templates/theme/location-directory.php:70
+#: ../templates/theme/single-location.php:62
+#: ../templates/theme/taxonomy-areas.php:64
+#: ../templates/theme/taxonomy-continents.php:65
+#: ../templates/theme/taxonomy-countries.php:64
+msgid "Areas: "
+msgstr ""
+
+#: ../templates/theme/location-directory.php:82
+#: ../templates/theme/taxonomy-areas.php:75
+#: ../templates/theme/taxonomy-continents.php:78
+#: ../templates/theme/taxonomy-countries.php:75
+msgid "&larr; Previous Entries"
+msgstr ""
+
+#: ../templates/theme/location-directory.php:83
+#: ../templates/theme/taxonomy-areas.php:76
+#: ../templates/theme/taxonomy-continents.php:79
+#: ../templates/theme/taxonomy-countries.php:76
+msgid "Next Entries &rarr;"
+msgstr ""
+
+#: ../templates/theme/location-directory.php:90
+#: ../templates/theme/taxonomy-areas.php:83
+#: ../templates/theme/taxonomy-continents.php:86
+#: ../templates/theme/taxonomy-countries.php:83
+msgid "Nothing was found."
+msgstr ""
+
+#: ../templates/theme/taxonomy-areas.php:21
+#, php-format
+msgid "Area: %s"
+msgstr ""
+
+#: ../templates/theme/taxonomy-continents.php:23
+#, php-format
+msgid "Continent: %s"
+msgstr ""
+
+#: ../templates/theme/taxonomy-countries.php:21
+#, php-format
+msgid "Countries: %s"
+msgstr ""
+

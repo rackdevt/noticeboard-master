@@ -1,0 +1,650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GMW Add-on - Groups Locator\n"
+"POT-Creation-Date: 2014-03-07 13:03-1000\n"
+"PO-Revision-Date: 2014-03-07 13:03-1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gmaps/templates/infobox/default/content.php:28
+#: gmaps/templates/popup/default/content.php:28
+#: includes/gmw-gl-component-extension.php:199
+#: includes/gmw-gl-component-extension.php:278
+#: includes/gmw-gl-component-search-functions.php:477
+msgid "Address: "
+msgstr ""
+
+#: gmaps/templates/infobox/default/content.php:30
+#: gmaps/templates/popup/default/content.php:30
+#: includes/gmw-gl-component-extension.php:242
+#: includes/gmw-gl-component-search-functions.php:47
+msgid "Get Directions"
+msgstr ""
+
+#: groups-locator.php:171 includes/admin/gmw-gl-admin.php:62
+#: includes/admin/gmw-gl-admin.php:93
+msgid "Groups Locator"
+msgstr ""
+
+#: groups-locator.php:173
+msgid ""
+"Add location to groups, display groups members on the map and create "
+"Buddypress's groups proximity search forms. "
+msgstr ""
+
+#: groups-locator.php:264
+msgid ""
+"Groups Locator requires GEO my WP plugin version 2.4 and up in order to "
+"work. Please activate GEO my WP or deactivate Groups Locator"
+msgstr ""
+
+#: groups-locator.php:272
+msgid ""
+"Groups Locator add-on requires Buddypress plugin to be activate in order to "
+"work."
+msgstr ""
+
+#: groups-locator.php:293
+msgid ""
+"Groups Locator requires Buddypress's Groups component to be active in order "
+"to work."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:63
+msgid "Create new Groups Locator form"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:74
+msgid "Groups Global Map"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:75
+msgid "Create new Buddypress groups global map"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:98
+msgid "Location tab - group's admin"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:99
+msgid ""
+"Choose between single address field or multiple address field that will be "
+"avalibale when creating or editing location of a group."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:105
+msgid "Location tab - displayed group"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:106
+msgid ""
+"These are the settings for the \"Location\" tab of a group that being "
+"displayed: <br />1) Choose the height and width of a map in percentage or "
+"pixels and choose the map type. <br /> 2)You can also display \"Get "
+"Directions\" link that will open a new window of google map that displays "
+"the location of the group."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:112
+msgid "Group's Members tab"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:113
+msgid ""
+"These are the settings for the \"Members\" tab of a group: <br /> 1) You can "
+"chosoe to display a map showing the location of the group members. Set the "
+"width and height of the map in percentage or pixels and choose the map type. "
+"<br /> 2)Display the address of each group member in the results."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:131
+msgid "Single Address Field"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:134
+msgid "Multiple Address Fields"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:144
+msgid "Field"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:145 includes/admin/gmw-gl-admin.php:290
+msgid "Use"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:146
+msgid "Title"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:182 includes/admin/gmw-gl-admin.php:227
+msgid "Map Width: "
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:187 includes/admin/gmw-gl-admin.php:232
+msgid "Map Height: "
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:192 includes/admin/gmw-gl-admin.php:237
+#: includes/admin/gmw-gl-admin.php:657 includes/admin/gmw-gl-admin.php:837
+#: includes/admin/gmw-gl-admin.php:885
+msgid "Map Type"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:195 includes/admin/gmw-gl-admin.php:240
+#: includes/admin/gmw-gl-admin.php:661 includes/admin/gmw-gl-admin.php:841
+msgid "ROADMAP"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:196 includes/admin/gmw-gl-admin.php:241
+#: includes/admin/gmw-gl-admin.php:662 includes/admin/gmw-gl-admin.php:842
+msgid "SATELLITE"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:197 includes/admin/gmw-gl-admin.php:242
+#: includes/admin/gmw-gl-admin.php:663 includes/admin/gmw-gl-admin.php:843
+msgid "HYBRID"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:198 includes/admin/gmw-gl-admin.php:243
+#: includes/admin/gmw-gl-admin.php:664 includes/admin/gmw-gl-admin.php:844
+msgid "TERRAIN"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:205
+msgid "\"Get Directions\" link"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:223
+msgid "Display Map"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:250
+msgid "Display Address"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:273
+msgid "Custom Form: "
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:292
+msgid "Single field"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:294
+msgid "Multiple fields"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:307
+msgid "Address"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:311 includes/admin/gmw-gl-admin.php:363
+msgid "Field Title:"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:317
+msgid "Within the input field"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:322 includes/admin/gmw-gl-admin.php:374
+msgid "Mandatory Field"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:346
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:351
+msgid "Include"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:356
+msgid "Pre-defined Value"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:369
+msgid "Within the address field"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:385
+msgid "Default Value:"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:411 includes/admin/gmw-gl-admin.php:727
+#: includes/admin/gmw-gl-admin.php:746
+msgid "Custom Template:"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:427 includes/admin/gmw-gl-admin.php:481
+#: includes/admin/gmw-gl-admin.php:588 includes/admin/gmw-gl-admin.php:622
+#: includes/admin/gmw-gl-admin.php:631 includes/admin/gmw-gl-admin.php:699
+#: includes/admin/gmw-gl-admin.php:895 includes/admin/gmw-gl-admin.php:904
+#: includes/admin/gmw-gl-admin.php:938 includes/admin/gmw-gl-admin.php:947
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:430 includes/admin/gmw-gl-admin.php:797
+msgid "Radius"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:435 includes/admin/gmw-gl-admin.php:540
+#: includes/admin/gmw-gl-admin.php:809
+msgid "Miles"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:436 includes/admin/gmw-gl-admin.php:541
+#: includes/admin/gmw-gl-admin.php:810
+msgid "Kilometers"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:449
+msgid " -- Same Page -- "
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:466
+msgid "Do not use"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:484
+msgid "Height"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:488
+msgid "Width"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:509
+msgid "Search Form Template"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:510
+msgid "Choose the search form template that you want to use."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:518
+msgid "Address Field"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:520
+msgid ""
+"Type the title for the address field of the search form. for example \"Enter "
+"your address\". this title wll be displayed either next to the address input "
+"field or within if you check the checkbox for it. You can also choose to "
+"have the address field mandatory which will prevent users from submitting "
+"the form if no address entered. Otherwise if you allow the field to be empty "
+"and user submit a form with no address the plugin will display all results."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:527
+msgid "Radius values comma separated"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:528 includes/admin/gmw-gl-admin.php:798
+msgid "Radius / Distance"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:529
+msgid ""
+"Enter distance values in the input box comma separated if you want to have a "
+"select dropdown menu of multiple radius values in the search form. If only "
+"one value entered it will be the default value of the search form which will "
+"be hidden."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:535 includes/admin/gmw-gl-admin.php:805
+msgid "Units"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:536
+msgid ""
+"Choose if to show both type of units as a dropdown or a single default type."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:539
+msgid "Both"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:547
+msgid "Locator Icon"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:548
+msgid ""
+"Choose if to display the locator button in the search form. The locator will "
+"get the user&#39;s current location and submit the search form based of the "
+"location found. you can choose one of the default icons or you can add icon "
+"of your own. "
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:559
+msgid "Results Page"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:560
+msgid ""
+"The results page will display the search results in the selected page when "
+"using the \"GMW Search Form\" widget or when you want to have the search "
+"form in one page and the results showing in a different page. \n"
+"\t\t\t\t\t\t\t\t\t\t\tChoose the results page from the dropdown menu and "
+"paste the shortcode [gmw form=\"results\"] into that page. To display the "
+"search result in the same page as the search form choose \"Same Page\" from "
+"the select box."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:568
+msgid "Results Template"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:569
+msgid ""
+"Choose The resuls template file (results.php). You can find the search "
+"results template files in the <code>plugins folder/geo-my-wp/plugin/posts/"
+"search-results</code>. You can modify any of the templates or create your "
+"own.\n"
+"\t\t\t\t\t\t\t\t\t\t\tIf you do modify or create you own template files you "
+"should create/save them in your theme or child theme folder and the plugin "
+"will read them from there. This way your changes will not be removed once "
+"the plugin is updated.\n"
+"\t\t\t\t\t\t\t\t\t\t\tYou will need to create the folders and save your "
+"results template there <code><strong>themes/your-theme-or-child-theme-folder/"
+"geo-my-wp/posts/search-results/your-results-theme-folder</strong></code>.\n"
+"\t\t\t\t\t\t\t\t\t\t\tYour theme folder will contain the results.php file "
+"and another folder named \"css\" and the style.css within it."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:578
+msgid "Auto Results"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:579
+msgid ""
+"Will automatically run initial search and display results based on the "
+"user's current location (if exists via cookies) when he/she first goes to a "
+"search page. You need to define the radius and the units for this initial "
+"search ."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:585
+msgid "Display groups?"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:586
+msgid "Display results as list of groups"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:593
+msgid "Display Map?"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:594
+msgid ""
+"Display results on map. You can do so automatically above the list of "
+"results or manually using the shortcode [gmw map=\"form ID\"]."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:597
+msgid "No map"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:598
+msgid "In results"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:599
+msgid "Using shortcode"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:605
+msgid "Group Avatar"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:607
+msgid ""
+"Display group's avatar and define its width and height in pixels or "
+"percentage."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:613
+msgid "Enter values"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:614
+msgid "Results Per Page"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:615
+msgid ""
+"Choose the number of results per page. By setting a single value you set the "
+"default number of results per page. By giving multiple values, comma "
+"separated, a select box will be created and the users will be able to set "
+"the number of results per page."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:621
+msgid "Driving Distance"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:623
+msgid ""
+"While the results showing the radius distance from the user to each of the "
+"locations, this feature let you display the exact driving distance. Please "
+"note that each driving distance request counts with google API when you can "
+"have 2500 requests per day."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:630 includes/admin/gmw-gl-admin.php:946
+msgid "Get Directions Link"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:632
+msgid ""
+"Display \"get directions\" link that will open a new window with google map "
+"that shows the exact driving direction from the user to the location."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:641 includes/admin/gmw-gl-admin.php:821
+msgid "Map width in px or %"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:642 includes/admin/gmw-gl-admin.php:822
+msgid "Map Width"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:643 includes/admin/gmw-gl-admin.php:823
+#, php-format
+msgid "Enter the map's width in pixels or percentage. ex. 100% or 200px"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:649 includes/admin/gmw-gl-admin.php:829
+msgid "Map height in px or %"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:650 includes/admin/gmw-gl-admin.php:830
+msgid "Map Height"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:651 includes/admin/gmw-gl-admin.php:831
+#, php-format
+msgid "Enter the map's height in pixels or percentage. ex. 100% or 200px"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:658 includes/admin/gmw-gl-admin.php:838
+msgid "Choose the map type"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:670 includes/admin/gmw-gl-admin.php:850
+msgid "Zoom Level"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:671 includes/admin/gmw-gl-admin.php:851
+msgid "Map zoom level"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:698 includes/admin/gmw-gl-admin.php:903
+msgid "Map Frame"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:700 includes/admin/gmw-gl-admin.php:905
+msgid "show frame around the map?"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:786
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:799
+msgid ""
+"Set radius to search from the user's current location when exists. Leave the "
+"input box empty if you want to display all exisintg locations."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:806
+msgid "Calculate distance in Miles or Kilometers."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:878
+msgid "Map Controls"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:879
+msgid "Which map controls would you like to use"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:882
+msgid "Zoom"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:883
+msgid "Pan"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:884
+msgid "Scale"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:886
+msgid "Street View"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:887
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:888
+msgid "Scroll Wheel"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:894
+msgid "Marker Clusterer"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:896
+msgid "Use marker Clusterer to group near locations."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:912
+msgid "Marker Window"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:917
+msgid "Marker Window Type"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:918
+msgid ""
+"What type of marker window would you like to use? \"Infobox\" will open an "
+"info window within the map above the marker or Pop-up window will pop-up an "
+"HTML window in the middle of the screen."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:930
+msgid "Marker Window Theme"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:931
+msgid "Choose the theme that will display the marker window."
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:937
+msgid "Avatar"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:939
+msgid "Display Group's Avatar"
+msgstr ""
+
+#: includes/admin/gmw-gl-admin.php:948
+msgid ""
+"Display get directions link that will open a new window with Google map "
+"showting the directions to the location."
+msgstr ""
+
+#: includes/gmw-gl-component-extension.php:12
+#: includes/gmw-gl-component-extension.php:14
+#: includes/gmw-gl-component-extension.php:18
+#: includes/gmw-gl-component-extension.php:21
+msgid "Location"
+msgstr ""
+
+#: includes/gmw-gl-component-extension.php:22
+msgid "Update Location"
+msgstr ""
+
+#: includes/gmw-gl-component-extension.php:63
+#: includes/gmw-gl-component-extension.php:100
+msgid "Address:"
+msgstr ""
+
+#: includes/gmw-gl-component-search-functions.php:58
+msgid "within"
+msgstr ""
+
+#: includes/gmw-gl-component-search-functions.php:58
+msgid "from"
+msgstr ""
+
+#: includes/gmw-gl-component-search-functions.php:154
+msgid " -- Order By --"
+msgstr ""
+
+#: includes/gmw-gl-component-search-functions.php:476
+msgid "Distance: "
+msgstr ""
+
+#: includes/gmw-gl-component-search-functions.php:478
+msgid "Get Directions: "
+msgstr ""
+
+#: includes/gmw-gl-component-search-functions.php:502
+msgid "Sorry, No groups found"
+msgstr ""
+
+#: includes/gmw-gl-location-tab.php:8
+msgid "This group does not have a location"
+msgstr ""
+
+#: search-forms/default/search-form.php:32
+msgid "Submit"
+msgstr ""
+
+#: search-results/default/results.php:51
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: search-results/default/results.php:110
+msgid "There were no groups found."
+msgstr ""

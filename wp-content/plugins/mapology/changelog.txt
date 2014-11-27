@@ -1,0 +1,90 @@
+== Changelog ==
+= v1.3.6 =
+* Bugfix: Fixed redirect when creating/editing groups with groupinfo turned on
+
+= v1.3.5 =
+* Fixed issue with class references
+* Fixed display of profile location map
+* Fixed timeout issue when viewing not your own routes
+
+= v1.3.4 =
+* Compatibility with BuddyPress 1.6.x
+
+= v1.3.3 =
+* Bugfix: Deleted groups showed still up on the map
+* Bugfix: Routes overview map needed CSS height to show up
+
+= v1.3.2 =
+* Added: Updated location activity gets updated now rather than newly created
+* Added: Static image args can be changed via the mapo_updated_location_args filter
+* Added: Groups and member maps both use the same icons
+* Added: Filter that lets you modify the members map popup
+* Bugfix: Group proximity is working now
+
+= v1.3.1 =
+* NEW: Location privacy settings
+* NEW: Enhanced members map (also shows Buddyvents events, if activated)
+* Added: Support for WP admin bar
+* Bugfix: Group routes did not show up
+
+= v1.3 =
+* Added: Compatibility with BP 1.5
+
+= v1.2.5 =
+* Bugfix: Help area did not show up sometimes
+
+= v1.2.4 =
+* Added: Link to remove upgrade nag
+* Bugfix: Replotting of coordinates
+
+= v1.2.3 =
+* Bugfix: Further proximity compatibility (again!!)
+
+= v1.2.2 =
+* Bugfix: Proximity compatibility on member activity streams
+
+= v1.2.1 =
+* Changed: Proximity filter gets only shown to logged-in users
+* Bugfix: Typo in database name when replotting coordinates
+* Bugfix: Routes shortcodes fatal error when routes disabled
+* Bugfix: Saving of manual location for members
+* Bugfix: Proximity filters don't interfere with other filters anymore
+* Bugfix: Overview members map query
+
+= v1.2 =
+* NEW: Algorithm to plot coordinates in a circle
+* NEW: Replot coordinates in the backend
+
+= v1.1.5 =
+* Bugfix: Coordinates did not get incremented properly if they existed already
+
+= v1.1.4 =
+* Changed: Google maps variables are now global
+* Bugfix: Database table cleanup functions moved to mapo-routes.php
+
+= v1.1.3 =
+* Bugfix: Missing shabuCounter variable
+
+= v1.1.2 =
+* NEW: Default map location (either through backend option or function defined)
+* NEW: Brand-spanking-new shiny backend
+* Added: Plugin CSS files can be overridden by theme css files in the maps folder
+* Changed: Unique names for JS functions
+* Changed: User map gets added above location, instead of replacing it
+* Bugfix: Only parent fields are enabled for locations
+* Bugfix: Nonce conflict if Buddyvents is enabled
+* Bugfix: Routes on MS install
+* Bugfix: Function name clashes
+* Bugfix: Description for routes shows up correct now
+* Bugfix: Widget route links
+
+= v1.1.1 =
+* Bugfix: Proximity filtering for members
+* Bugfix: Avatar link
+
+= v1.1 =
+* Bugfix: Userlink on a members map
+* Bugfix: JS inclusion of markerclusterer
+
+= v1.0 =
+* initial release

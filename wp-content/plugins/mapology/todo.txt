@@ -1,0 +1,2 @@
+- compatibility with bp group hierarchy
+- proximity filter still shows on group directory even if it's deactivated

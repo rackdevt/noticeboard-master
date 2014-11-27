@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>The Big Ben London</name>
+    <description>The Clock Tower of the Palace of Westminster - officially named Saint Stephen's Tower - is commonly known as the Big Ben. The tower is one of London's most famous landmarks.</description>
+    <Point>
+      <coordinates>-0.124692200000026790,51.500768300000000000,0</coordinates>
+    </Point>
+  </Placemark>
+</kml>

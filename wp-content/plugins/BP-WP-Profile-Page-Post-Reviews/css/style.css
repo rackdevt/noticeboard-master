@@ -1,0 +1,42 @@
+.prorevs_user_list img.avatar {
+    display: block;
+    float: left;
+    margin-top: 3px;
+}
+
+.prorevs_user_list_item {
+    height: 60px;
+    clear: both;
+}
+
+.prorevs_user_list_number {
+    float: left;
+    line-height: 60px;
+    font-size: 150%;
+    font-weight: bold;
+    width: 20px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.prorevs_user_list_info {
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.prorevs_user_list_reviews {
+    font-size: 80%;
+}
+
+.prorevs_user_list_name,
+.prorevs_user_list_name:visited {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.prorevs-report-form {
+    display: inline-block;
+    border: 1px solid #bbb;
+    padding: 3px 10px;
+}

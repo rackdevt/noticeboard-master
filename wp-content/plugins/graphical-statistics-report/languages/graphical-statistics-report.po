@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphical statistics report\n"
+"POT-Creation-Date: 2014-08-10 22:28+0800\n"
+"PO-Revision-Date: 2014-08-10 22:28+0800\n"
+"Last-Translator: \n"
+"Language-Team: www.gopiplus.com <www.gopiplus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../graphical-statistics-report.php:41
+msgid "Graphical statistics"
+msgstr ""
+
+#: ../graphical-statistics-report.php:42
+msgid "Monthly post report"
+msgstr ""
+
+#: ../graphical-statistics-report.php:73
+msgid "At present monthly post summary graph not available."
+msgstr ""
+
+#: ../graphical-statistics-report.php:78
+msgid "Monthly comment report"
+msgstr ""
+
+#: ../graphical-statistics-report.php:107
+msgid "At present monthly comment report graph not available."
+msgstr ""
+
+#: ../graphical-statistics-report.php:112
+msgid "Monthly user registration report"
+msgstr ""
+
+#: ../graphical-statistics-report.php:142
+msgid "At present monthly user registration summary graph not available."
+msgstr ""
+
+#: ../graphical-statistics-report.php:147
+msgid "Category report"
+msgstr ""
+
+#: ../graphical-statistics-report.php:174
+msgid "At present category report graph not available."
+msgstr ""
+
+#: ../graphical-statistics-report.php:179
+msgid "Check official website for more information"
+msgstr ""
+
+#: ../graphical-statistics-report.php:180
+msgid "Click here"
+msgstr ""
+
+#: ../graphical-statistics-report.php:187
+#: ../graphical-statistics-report.php:188
+msgid "Graphical Statistics"
+msgstr ""

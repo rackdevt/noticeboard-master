@@ -1,0 +1,331 @@
+/*--------------------------------------------------------------
+This is your custom stylesheet.
+
+Add your own styles here to make theme updates easier.
+To override any styles from other stylesheets, simply copy them into here and edit away.
+
+Make sure to respect the media queries! Otherwise you may
+accidentally add desktop styles to the mobile layout.
+
+You're the boss, so have fun editing!
+
+--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Global Styles
+2.0 - Responsive media queries (mobile styles)
+	2.1 - MAXIMUM width of 720 pixels (phones landscape)
+	2.2 - MAXIMUM width of 380 pixels (phones portrait)
+	2.3 - MINIMUM width of 721 pixels (tablets+)
+	2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Global Styles
+--------------------------------------------------------------*/
+
+
+
+/*
+.just_an_example {
+	color: black;
+}
+*/
+
+
+
+/*--------------------------------------------------------------
+2.0 - Responsive media queries (mobile styles)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.1 - MAXIMUM width of 720 pixels (phones landscape)
+--------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.2 - MAXIMUM width of 380 pixels (phones portrait)
+--------------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.3 - MINIMUM width of 721 pixels (tablets+)
+--------------------------------------------------------------*/
+@media screen and (min-width: 721px)  {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+@media screen and (min-width: 1040px)  {
+
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+z.10 - GNB Dev Team Custom Styles
+--------------------------------------------------------------*/
+
+h1.entry-title {
+position:relative;
+z-index: 2;
+	/*margin-left: 30px;*/
+	font-family: Rockwell, Georgia, Times, serif;
+	font-weight: 400;
+	font-size: 27px;
+	color: #444444;
+}
+
+.strapline {
+	font-family: Rockwell, Georgia, Times, serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #444444;
+}
+
+#landing3 {background: #231f20 url(../../../uploads/gnbpanel-landing2.png) no-repeat center left; /*margin-top: 5px; width: 1024px;*/margin-top: -65px !important; width: 100%; float: left; height: 599px;}
+#landing3 form {/*width: 350px; height: 380px;*/ width: 280px; height: 340px; background: #fff; float: right; margin: 40px 0 0; }
+#landing3 .gform_wrapper .gform_heading, #landing3 .gform_wrapper h2.gsection_title, #landing3 .gform_wrapper .gsection_description {width: 100%;}
+#landing3 .gform_wrapper h3.gform_title {width: 99.5%;}
+#landing3 form .gform_title {background: #231f20; color: #fff; text-align: center; font-size: 1.5em; padding: 10px 0; margin: 0;  border: 1px solid #fff;}
+#landing3 .gform_body, #landing3 .gform_description {/*padding: 10px 10px 0;*/padding: 0 10px 0; display: block;}
+#landing3 .gform_wrapper .gform_heading {margin-bottom: 0; }
+#landing3 .gform_wrapper .top_label .gfield_label {display: none;}
+#landing3 .gform_wrapper .ginput_complex label {line-height: 1em; width: 100%; letter-spacing: 0;}
+#landing3 .gform_wrapper .ginput_complex {float: left; width: 100%;}
+#landing3 form h2 {color: #000;}
+#landing3 .gform_wrapper .gform_footer input.button, #landing3 .gform_wrapper .gform_footer input[type=submit] {display: block; margin: 5px auto; text-transform: uppercase;-webkit-box-shadow: 4px 4px 8px 0 #231f20; box-shadow: 4px 4px 8px 0 #231f20; padding: 4px 20px;}
+#sub-comment {padding: 30px 50px; text-align: center; float: left; font-size: 18px !important;}
+span.author {font-weight: bold; margin-left: 5px; display: inline-block;}
+
+
+/***  For header area  OA - 141014 ****/
+header#masthead.site-header { height:78px; }
+nav#site-navigation.main-navigation {margin-top:-120px; background-color:transparent; }
+nav#site-navigation-pam.main-navigation {margin-top:-94px; background-color:transparent !important; float:right; }
+div.nav-inner { float:right; }
+
+ul#menu-header_menu.nav-menu.clearfix { background-color: transparent; }
+
+
+
+/* remove logout form */
+div#sidebar div#sidebar-me {
+display: none !important;
+}
+#top-login-form {float: right; width: 300px; font-family: Rockwell, Georgia, Times, "Times New Roman", serif; text-align: left; } 
+#top-nav #top-login-form label {font-weight: normal !important; margin: 0 !important; color: #fff; font-size: 12px; line-height: 1.5em;}
+#top-login-form input[type="text"], #top-login-form input[type="password"] {height: 15px !important; padding: 1px !important; font-size: 11px; width: 90%; line-height: 1.5em;}
+#top-login-form input[type="submit"]  {float: right; background: none; border: 1px solid #fff; text-shadow: none; color: #fff; padding: 1px 5px; font-size: 12px; /*margin: 0 10px 0 0;*/ margin: 5px 10px 0 0;}
+.data {float: left; width: 50%;}
+.forgetmenot {font-size: 12px; /*margin: 0 !important;*/ margin: 6px 0 0 0 !important;}
+
+
+.standard-form textarea, .standard-form input[type="text"], .standard-form select, .standard-form input[type="password"], .dir-search input[type="text"] {
+border: 1px solid #CCC;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+color: #888;
+font-family: inherit;
+font-size: 14px;
+padding: 6px;
+}
+
+.standard-form input:focus, .standard-form textarea:focus, .standard-form select:focus {
+background: #FAFAFA;
+}
+
+div#sub-comment {
+padding: 10px 0 0;
+width: 100%;
+text-align: center;
+float: left;
+font-size: 14px !important;
+height: 100px; 
+}
+
+.hgt-080 { height:80px; }
+.hgt-100 { height:100px; }
+.hgt-120 { height:120px; }
+.hgt-150 { height:150px; }
+
+footer.entry-meta { display: none !important; }
+
+
+h1, h2, h3, h4, h5, h6 {
+/*margin: 0 0 15px 0;*/
+line-height: 1.2;
+font-family: Rockwell, Georgia, Times, "Times New Roman", serif !important;
+font-weight: 600 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+letter-spacing: .01em !important;
+}
+
+
+/* custom css by Nathaniel 2014 */
+
+.gnb-social-share {
+	margin: 20px 0 10px 0;
+}
+
+
+/* ---- isotope ---- */
+
+.isotope {
+  max-width: 1200px;
+}
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .item ---- */
+
+.gnb-item {
+  float: left;
+  border: 2px solid #eee;
+  margin: 0 7px 7px 0;
+  padding: 4px;
+ font-size: .9em;
+}
+
+.gnb-item p {
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+
+.gnb-item-1 { 
+	width: 210px; 
+	min-height: 200px;
+	background: #cfe5ae;
+
+}
+
+.gnb-item-2 { 
+	width: 210px;
+	min-height: 260px; 
+	background: #e5f1d5;
+}
+
+.gnb-item-3 { 
+	width: 210px;
+	min-height: 220px; 
+	background: #cfe5ae;
+}
+
+.gnb-item h2 a{
+	font-size: .8em !important;
+	margin: 8px 0 8px 0;
+	padding: 0;
+}
+
+.gnb-item p {
+	font-size: 1em !important;
+	margin: 8px 0 8px 0;
+	padding: 0;
+}
+
+.gnb-item .date {
+	font-size: .9em;
+}
+
+.gnb-item .author-box {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-weight: 700;
+	margin: 0 0 6px 0;
+}
+
+.gnb-item .gnb-ad-buttons {
+	margin-top: 14px;
+}
+
+.wanted .author-box, .wanted .date {
+	color: #6a94a8 !important;
+}
+
+.offered .author-box, .offered .date{
+	color: #b72842 !important;
+}
+
+.gnb-noticeboard-header h1 {
+		font-size: 2.2em !important;
+}
+
+.gnb-noticeboard-header h2 {
+		font-size: 1.8em !important;
+}
+
+.gnb-image-responsive {
+	width: 100%;
+}
+
+.gnb-blog-pagination {
+	height: 30px;
+}
+
+.gnb-blog-pagination .pagination-links {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-bottom: 10px;
+	float: none;
+	}
+
+.gnb-greyscale {
+-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+filter: gray; filter: grayscale(100%);
+filter: url(desaturate.svg#greyscale);
+}

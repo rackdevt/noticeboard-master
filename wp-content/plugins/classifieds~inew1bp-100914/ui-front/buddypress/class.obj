@@ -1,0 +1,2091 @@
+
+class
+object(BuddyPress)[224]
+  private 'data' => 
+    array (size=53)
+      'version' => string '1.7' (length=3)
+      'db_version' => int 6080
+      'load_deprecated' => boolean true
+      'my_account_menu_id' => string '' (length=0)
+      'unfiltered_uri_offset' => int 0
+      'no_status_set' => boolean false
+      'current_component' => string 'classifieds' (length=11)
+      'current_item' => string '' (length=0)
+      'current_action' => string '' (length=0)
+      'is_single_item' => boolean false
+      'root_blog_id' => int 1
+      'file' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\buddypress\bp-loader.php' (length=72)
+      'basename' => string 'buddypress/bp-loader.php' (length=24)
+      'plugin_dir' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+      'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/buddypress/' (length=54)
+      'lang_dir' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/bp-languages' (length=71)
+      'themes_dir' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/bp-templates' (length=71)
+      'themes_url' => string 'http://mandolinlady.com/wp-content/plugins/buddypress/bp-templates' (length=66)
+      'old_themes_dir' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/bp-themes' (length=68)
+      'old_themes_url' => string 'http://mandolinlady.com/wp-content/plugins/buddypress/bp-themes' (length=63)
+      'theme_compat' => 
+        object(stdClass)[225]
+          public 'packages' => 
+            array (size=1)
+              'legacy' => 
+                object(BP_Theme_Compat)[157]
+                  protected '_data' => 
+                    array (size=5)
+                      'id' => string 'legacy' (length=6)
+                      'name' => string 'BuddyPress Default' (length=18)
+                      'version' => string '1.7' (length=3)
+                      'dir' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/bp-templates/bp-legacy/' (length=82)
+                      'url' => string 'http://mandolinlady.com/wp-content/plugins/buddypress/bp-templates/bp-legacy/' (length=77)
+          public 'theme' => 
+            object(BP_Theme_Compat)[157]
+              protected '_data' => 
+                array (size=5)
+                  'id' => string 'legacy' (length=6)
+                  'name' => string 'BuddyPress Default' (length=18)
+                  'version' => string '1.7' (length=3)
+                  'dir' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/bp-templates/bp-legacy/' (length=82)
+                  'url' => string 'http://mandolinlady.com/wp-content/plugins/buddypress/bp-templates/bp-legacy/' (length=77)
+      'filters' => 
+        object(stdClass)[226]
+      'current_user' => 
+        object(stdClass)[227]
+      'displayed_user' => 
+        object(stdClass)[228]
+          public 'id' => int 4
+          public 'userdata' => 
+            object(stdClass)[307]
+              public 'ID' => string '4' (length=1)
+              public 'user_login' => string 'bryant' (length=6)
+              public 'user_pass' => string '$P$BbLXG/AydbS6McFgCeI784yMMw34iq1' (length=34)
+              public 'user_nicename' => string 'bryant' (length=6)
+              public 'user_email' => string 'bryant@webwrights.com' (length=21)
+              public 'user_url' => string '' (length=0)
+              public 'user_registered' => string '2013-04-09 20:45:34' (length=19)
+              public 'user_activation_key' => string '' (length=0)
+              public 'user_status' => string '0' (length=1)
+              public 'display_name' => string 'bryant' (length=6)
+              public 'spam' => string '0' (length=1)
+              public 'deleted' => string '0' (length=1)
+          public 'domain' => string 'http://mandolinlady.com/members/bryant/' (length=39)
+          public 'fullname' => string 'bryant' (length=6)
+      'db_version_raw' => int 6080
+      'optional_components' => 
+        array (size=8)
+          0 => string 'activity' (length=8)
+          1 => string 'blogs' (length=5)
+          2 => string 'forums' (length=6)
+          3 => string 'friends' (length=7)
+          4 => string 'groups' (length=6)
+          5 => string 'messages' (length=8)
+          6 => string 'settings' (length=8)
+          7 => string 'xprofile' (length=8)
+      'deactivated_components' => 
+        array (size=0)
+          empty
+      'core' => 
+        object(BP_Core)[173]
+          public 'name' => string 'BuddyPress Core' (length=15)
+          public 'id' => string 'core' (length=4)
+          public 'slug' => null
+          public 'has_directory' => null
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => null
+          public 'admin_menu' => null
+          public 'search_string' => null
+          public 'root_slug' => null
+          public 'table_name_notifications' => string 'wp_bp_notifications' (length=19)
+      'activity' => 
+        object(BP_Activity_Component)[171]
+          public 'name' => string 'Activity Streams' (length=16)
+          public 'id' => string 'activity' (length=8)
+          public 'slug' => string 'activity' (length=8)
+          public 'has_directory' => boolean true
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string 'bp_activity_format_notifications' (length=32)
+          public 'admin_menu' => null
+          public 'search_string' => string 'Search Activity...' (length=18)
+          public 'root_slug' => string 'activity' (length=8)
+          public 'table_name' => string 'wp_bp_activity' (length=14)
+          public 'table_name_meta' => string 'wp_bp_activity_meta' (length=19)
+          public 'actions' => 
+            object(stdClass)[309]
+              public 'activity' => 
+                object(stdClass)[308]
+                  public 'activity_update' => 
+                    array (size=2)
+                      'key' => string 'activity_update' (length=15)
+                      'value' => string 'Posted a status update' (length=22)
+                  public 'activity_comment' => 
+                    array (size=2)
+                      'key' => string 'activity_comment' (length=16)
+                      'value' => string 'Replied to a status update' (length=26)
+              public 'blogs' => 
+                object(stdClass)[310]
+                  public 'new_blog' => 
+                    array (size=2)
+                      'key' => string 'new_blog' (length=8)
+                      'value' => string 'New site created' (length=16)
+                  public 'new_blog_post' => 
+                    array (size=2)
+                      'key' => string 'new_blog_post' (length=13)
+                      'value' => string 'New post published' (length=18)
+                  public 'new_blog_comment' => 
+                    array (size=2)
+                      'key' => string 'new_blog_comment' (length=16)
+                      'value' => string 'New post comment posted' (length=23)
+              public 'friends' => 
+                object(stdClass)[311]
+                  public 'friendship_accepted' => 
+                    array (size=2)
+                      'key' => string 'friendship_accepted' (length=19)
+                      'value' => string 'Friendships accepted' (length=20)
+                  public 'friendship_created' => 
+                    array (size=2)
+                      'key' => string 'friendship_created' (length=18)
+                      'value' => string 'New friendships' (length=15)
+                  public 'friends_register_activity_action' => 
+                    array (size=2)
+                      'key' => string 'friends_register_activity_action' (length=32)
+                      'value' => string 'New friendship created' (length=22)
+              public 'groups' => 
+                object(stdClass)[300]
+                  public 'created_group' => 
+                    array (size=2)
+                      'key' => string 'created_group' (length=13)
+                      'value' => string 'Created a group' (length=15)
+                  public 'joined_group' => 
+                    array (size=2)
+                      'key' => string 'joined_group' (length=12)
+                      'value' => string 'Joined a group' (length=14)
+                  public 'new_forum_topic' => 
+                    array (size=2)
+                      'key' => string 'new_forum_topic' (length=15)
+                      'value' => string 'New group forum topic' (length=21)
+                  public 'new_forum_post' => 
+                    array (size=2)
+                      'key' => string 'new_forum_post' (length=14)
+                      'value' => string 'New group forum post' (length=20)
+              public 'xprofile' => 
+                object(stdClass)[299]
+                  public 'new_avatar' => 
+                    array (size=2)
+                      'key' => string 'new_avatar' (length=10)
+                      'value' => string 'Member changed profile picture' (length=30)
+                  public 'new_member' => 
+                    array (size=2)
+                      'key' => string 'new_member' (length=10)
+                      'value' => string 'New member registered' (length=21)
+                  public 'updated_profile' => 
+                    array (size=2)
+                      'key' => string 'updated_profile' (length=15)
+                      'value' => string 'Updated Profile' (length=15)
+      'blogs' => 
+        object(BP_Blogs_Component)[170]
+          public 'name' => string 'Site Tracking' (length=13)
+          public 'id' => string 'blogs' (length=5)
+          public 'slug' => string 'blogs' (length=5)
+          public 'has_directory' => boolean true
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string 'bp_blogs_format_notifications' (length=29)
+          public 'admin_menu' => null
+          public 'search_string' => string 'Search sites...' (length=15)
+          public 'root_slug' => string 'blogs' (length=5)
+          public 'table_name' => string 'wp_bp_user_blogs' (length=16)
+          public 'table_name_blogmeta' => string 'wp_bp_user_blogs_blogmeta' (length=25)
+      'forums' => 
+        object(BP_Forums_Component)[169]
+          public 'name' => string 'Discussion Forums' (length=17)
+          public 'id' => string 'forums' (length=6)
+          public 'slug' => string 'forums' (length=6)
+          public 'has_directory' => boolean true
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string 'messages_format_notifications' (length=29)
+          public 'admin_menu' => null
+          public 'search_string' => string 'Search Forums...' (length=16)
+          public 'root_slug' => string 'forums' (length=6)
+          public 'bbconfig' => string 'C:\wamp\www\mandolinlady.com/bb-config.php' (length=42)
+      'friends' => 
+        object(BP_Friends_Component)[168]
+          public 'name' => string 'Friend Connections' (length=18)
+          public 'id' => string 'friends' (length=7)
+          public 'slug' => string 'friends' (length=7)
+          public 'has_directory' => boolean false
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string 'friends_format_notifications' (length=28)
+          public 'admin_menu' => null
+          public 'search_string' => string 'Search Friends...' (length=17)
+          public 'root_slug' => string '' (length=0)
+          public 'table_name' => string 'wp_bp_friends' (length=13)
+          public 'table_name_meta' => string 'wp_bp_friends_meta' (length=18)
+      'groups' => 
+        object(BP_Groups_Component)[167]
+          public 'auto_join' => boolean true
+          public 'current_group' => int 0
+          public 'default_component' => null
+          public 'default_extension' => null
+          public 'forbidden_names' => 
+            array (size=14)
+              0 => string 'my-groups' (length=9)
+              1 => string 'create' (length=6)
+              2 => string 'invites' (length=7)
+              3 => string 'send-invites' (length=12)
+              4 => string 'forum' (length=5)
+              5 => string 'delete' (length=6)
+              6 => string 'add' (length=3)
+              7 => string 'admin' (length=5)
+              8 => string 'request-membership' (length=18)
+              9 => string 'members' (length=7)
+              10 => string 'settings' (length=8)
+              11 => string 'avatar' (length=6)
+              12 => string 'groups' (length=6)
+              13 => string 'groups' (length=6)
+          public 'group_creation_steps' => 
+            array (size=4)
+              'group-details' => 
+                array (size=2)
+                  'name' => string 'Details' (length=7)
+                  'position' => int 0
+              'group-settings' => 
+                array (size=2)
+                  'name' => string 'Settings' (length=8)
+                  'position' => int 10
+              'group-avatar' => 
+                array (size=2)
+                  'name' => string 'Avatar' (length=6)
+                  'position' => int 20
+              'group-invites' => 
+                array (size=2)
+                  'name' => string 'Invites' (length=7)
+                  'position' => int 30
+          public 'valid_status' => 
+            array (size=3)
+              0 => string 'public' (length=6)
+              1 => string 'private' (length=7)
+              2 => string 'hidden' (length=6)
+          public 'name' => string 'User Groups' (length=11)
+          public 'id' => string 'groups' (length=6)
+          public 'slug' => string 'groups' (length=6)
+          public 'has_directory' => boolean true
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string 'groups_format_notifications' (length=27)
+          public 'admin_menu' => null
+          public 'search_string' => string 'Search Groups...' (length=16)
+          public 'root_slug' => string 'groups' (length=6)
+          public 'table_name' => string 'wp_bp_groups' (length=12)
+          public 'table_name_members' => string 'wp_bp_groups_members' (length=20)
+          public 'table_name_groupmeta' => string 'wp_bp_groups_groupmeta' (length=22)
+      'messages' => 
+        object(BP_Messages_Component)[166]
+          public 'autocomplete_all' => boolean false
+          public 'name' => string 'Private Messages' (length=16)
+          public 'id' => string 'messages' (length=8)
+          public 'slug' => string 'messages' (length=8)
+          public 'has_directory' => boolean false
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string 'messages_format_notifications' (length=29)
+          public 'admin_menu' => null
+          public 'search_string' => string 'Search Messages...' (length=18)
+          public 'root_slug' => string '' (length=0)
+          public 'table_name_notices' => string 'wp_bp_messages_notices' (length=22)
+          public 'table_name_messages' => string 'wp_bp_messages_messages' (length=23)
+          public 'table_name_recipients' => string 'wp_bp_messages_recipients' (length=25)
+      'settings' => 
+        object(BP_Settings_Component)[165]
+          public 'name' => string 'Settings' (length=8)
+          public 'id' => string 'settings' (length=8)
+          public 'slug' => string 'settings' (length=8)
+          public 'has_directory' => boolean false
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string '' (length=0)
+          public 'admin_menu' => null
+          public 'search_string' => string '' (length=0)
+          public 'root_slug' => string '' (length=0)
+      'profile' => 
+        object(BP_XProfile_Component)[164]
+          public 'field_types' => 
+            array (size=7)
+              0 => string 'textbox' (length=7)
+              1 => string 'textarea' (length=8)
+              2 => string 'radio' (length=5)
+              3 => string 'checkbox' (length=8)
+              4 => string 'selectbox' (length=9)
+              5 => string 'multiselectbox' (length=14)
+              6 => string 'datebox' (length=7)
+          public 'visibility_levels' => 
+            array (size=4)
+              'public' => 
+                array (size=2)
+                  'id' => string 'public' (length=6)
+                  'label' => string 'Anyone' (length=6)
+              'loggedin' => 
+                array (size=2)
+                  'id' => string 'loggedin' (length=8)
+                  'label' => string 'Logged In Users' (length=15)
+              'adminsonly' => 
+                array (size=2)
+                  'id' => string 'adminsonly' (length=10)
+                  'label' => string 'Admins Only' (length=11)
+              'friends' => 
+                array (size=2)
+                  'id' => string 'friends' (length=7)
+                  'label' => string 'My Friends' (length=10)
+          public 'name' => string 'Extended Profiles' (length=17)
+          public 'id' => string 'xprofile' (length=8)
+          public 'slug' => string 'profile' (length=7)
+          public 'has_directory' => boolean false
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string 'xprofile_format_notifications' (length=29)
+          public 'admin_menu' => null
+          public 'search_string' => string '' (length=0)
+          public 'root_slug' => string '' (length=0)
+          public 'table_name_data' => string 'wp_bp_xprofile_data' (length=19)
+          public 'table_name_groups' => string 'wp_bp_xprofile_groups' (length=21)
+          public 'table_name_fields' => string 'wp_bp_xprofile_fields' (length=21)
+          public 'table_name_meta' => string 'wp_bp_xprofile_meta' (length=19)
+      'members' => 
+        object(BP_Members_Component)[163]
+          public 'name' => string 'Members' (length=7)
+          public 'id' => string 'members' (length=7)
+          public 'slug' => string 'members' (length=7)
+          public 'has_directory' => boolean true
+          public 'path' => string 'C:\wamp\www\mandolinlady.com/wp-content/plugins/buddypress/' (length=59)
+          public 'query' => null
+          public 'current_id' => null
+          public 'notification_callback' => string '' (length=0)
+          public 'admin_menu' => null
+          public 'search_string' => string 'Search Members...' (length=17)
+          public 'root_slug' => string 'members' (length=7)
+      'pages' => 
+        object(stdClass)[275]
+          public 'activity' => 
+            object(stdClass)[282]
+              public 'name' => string 'activity' (length=8)
+              public 'id' => string '22' (length=2)
+              public 'title' => string 'Activity' (length=8)
+              public 'slug' => string 'activity' (length=8)
+          public 'forums' => 
+            object(stdClass)[283]
+              public 'name' => string 'forums' (length=6)
+              public 'id' => string '23' (length=2)
+              public 'title' => string 'Forums' (length=6)
+              public 'slug' => string 'forums' (length=6)
+          public 'groups' => 
+            object(stdClass)[284]
+              public 'name' => string 'groups' (length=6)
+              public 'id' => string '21' (length=2)
+              public 'title' => string 'Groups' (length=6)
+              public 'slug' => string 'groups' (length=6)
+          public 'members' => 
+            object(stdClass)[285]
+              public 'name' => string 'members' (length=7)
+              public 'id' => string '20' (length=2)
+              public 'title' => string 'Members' (length=7)
+              public 'slug' => string 'members' (length=7)
+              public 'key' => string 'members' (length=7)
+          public 'register' => 
+            object(stdClass)[286]
+              public 'name' => string 'register' (length=8)
+              public 'id' => string '24' (length=2)
+              public 'title' => string 'Register' (length=8)
+              public 'slug' => string 'register' (length=8)
+          public 'activate' => 
+            object(stdClass)[287]
+              public 'name' => string 'activate' (length=8)
+              public 'id' => string '25' (length=2)
+              public 'title' => string 'Activate' (length=8)
+              public 'slug' => string 'activate' (length=8)
+      'avatar' => 
+        object(stdClass)[279]
+          public 'thumb' => 
+            object(stdClass)[281]
+              public 'width' => int 50
+              public 'height' => int 50
+              public 'default' => string 'http://mandolinlady.com/wp-content/plugins/buddypress/bp-core/images/mystery-man-50.jpg' (length=87)
+          public 'full' => 
+            object(stdClass)[312]
+              public 'width' => int 150
+              public 'height' => int 150
+              public 'default' => string 'http://mandolinlady.com/wp-content/plugins/buddypress/bp-core/images/mystery-man.jpg' (length=84)
+          public 'original_max_width' => int 450
+          public 'original_max_filesize' => int 5120000
+          public 'upload_path' => string 'C:\wamp\www\mandolinlady.com/wp-content/uploads' (length=47)
+          public 'url' => string 'http://mandolinlady.com/wp-content/uploads' (length=42)
+          public 'show_avatars' => boolean true
+      'table_prefix' => string 'wp_' (length=3)
+      'root_domain' => string 'http://mandolinlady.com' (length=23)
+      'site_options' => 
+        array (size=17)
+          'bp-blogs-first-install' => boolean false
+          'bp-disable-profile-sync' => boolean false
+          'hide-loggedout-adminbar' => boolean false
+          'bp-disable-avatar-uploads' => boolean false
+          'bp-disable-account-deletion' => boolean false
+          'bp_restrict_group_creation' => boolean false
+          '_bp_force_buddybar' => boolean false
+          'avatar_default' => string 'mystery' (length=7)
+          'bb-config-location' => string 'C:\wamp\www\mandolinlady.com/bb-config.php' (length=42)
+          'bp-deactivated-components' => string 'a:0:{}' (length=6)
+          'bp-disable-blogforum-comments' => string '1' (length=1)
+          'bp-xprofile-base-group-name' => string 'Base' (length=4)
+          'bp-xprofile-fullname-field-name' => string 'Name' (length=4)
+          'registration' => string 'none' (length=4)
+          '_bp_enable_akismet' => string '1' (length=1)
+          '_bp_theme_package_id' => string 'legacy' (length=6)
+          'fileupload_maxk' => string '1500' (length=4)
+      'loggedin_user' => 
+        object(stdClass)[301]
+          public 'id' => int 1
+          public 'fullname' => string 'arky' (length=4)
+          public 'is_site_admin' => boolean true
+          public 'is_super_admin' => boolean true
+          public 'userdata' => 
+            object(stdClass)[305]
+              public 'ID' => string '1' (length=1)
+              public 'user_login' => string 'arky' (length=4)
+              public 'user_pass' => string '$P$BCExqZgzVeHecnspPfJUV8.B7T7zO60' (length=34)
+              public 'user_nicename' => string 'arky' (length=4)
+              public 'user_email' => string 'abaileytn@gmail.com' (length=19)
+              public 'user_url' => string '' (length=0)
+              public 'user_registered' => string '2013-03-19 16:25:51' (length=19)
+              public 'user_activation_key' => string '' (length=0)
+              public 'user_status' => string '0' (length=1)
+              public 'display_name' => string 'arky' (length=4)
+              public 'spam' => string '0' (length=1)
+              public 'deleted' => string '0' (length=1)
+          public 'domain' => string 'http://mandolinlady.com/members/arky/' (length=37)
+      'grav_default' => 
+        object(stdClass)[302]
+          public 'user' => string 'mystery' (length=7)
+          public 'group' => string 'mystery' (length=7)
+          public 'blog' => string 'mystery' (length=7)
+      'is_item_admin' => boolean true
+      'is_item_mod' => boolean false
+      'default_component' => string 'activity' (length=8)
+      'bp_options_avatar' => string '<img src="http://gravatar.com/avatar/8bc02050ade8a861fad63fa344fe8cff?d=http://mandolinlady.com/wp-content/plugins/buddypress/bp-core/images/mystery-man.jpg&amp;s=50&amp;r=G" class="avatar user-4-avatar avatar- photo" width="50" height="50" alt="Profile picture of bryant" />' (length=275)
+      'bp_options_title' => string 'bryant' (length=6)
+      'embed' => 
+        object(BP_Embed)[298]
+          public 'handlers' => 
+            array (size=1)
+              10 => 
+                array (size=1)
+                  'googlevideo' => 
+                    array (size=2)
+                      'regex' => string '#http://video\.google\.([A-Za-z.]{2,5})/videoplay\?docid=([\d-]+)(.*?)#i' (length=72)
+                      'callback' => string 'wp_embed_handler_googlevideo' (length=28)
+          public 'post_ID' => null
+          public 'usecache' => boolean true
+          public 'linkifunknown' => boolean true
+      'classifieds' => 
+        object(stdClass)[330]
+          public 'slug' => string 'classifieds' (length=11)
+      'directory' => 
+        object(stdClass)[332]
+          public 'slug' => string 'listings' (length=8)
+      'is_directory' => boolean true
+  public 'bp_nav' => 
+    array (size=9)
+      'activity' => 
+        array (size=8)
+          'name' => string 'Activity' (length=8)
+          'slug' => string 'activity' (length=8)
+          'link' => string 'http://mandolinlady.com/members/arky/activity/' (length=46)
+          'css_id' => string 'activity' (length=8)
+          'show_for_displayed_user' => boolean true
+          'position' => int 10
+          'screen_function' => string 'bp_activity_screen_my_activity' (length=30)
+          'default_subnav_slug' => string 'just-me' (length=7)
+      'blogs' => 
+        array (size=8)
+          'name' => string 'Sites <span>0</span>' (length=20)
+          'slug' => string 'blogs' (length=5)
+          'link' => string 'http://mandolinlady.com/members/arky/blogs/' (length=43)
+          'css_id' => string 'blogs' (length=5)
+          'show_for_displayed_user' => boolean true
+          'position' => int 30
+          'screen_function' => string 'bp_blogs_screen_my_blogs' (length=24)
+          'default_subnav_slug' => string 'my-sites' (length=8)
+      'friends' => 
+        array (size=8)
+          'name' => string 'Friends <span>0</span>' (length=22)
+          'slug' => string 'friends' (length=7)
+          'link' => string 'http://mandolinlady.com/members/arky/friends/' (length=45)
+          'css_id' => string 'friends' (length=7)
+          'show_for_displayed_user' => boolean true
+          'position' => int 60
+          'screen_function' => string 'friends_screen_my_friends' (length=25)
+          'default_subnav_slug' => string 'my-friends' (length=10)
+      'groups' => 
+        array (size=8)
+          'name' => string 'Groups <span>0</span>' (length=21)
+          'slug' => string 'groups' (length=6)
+          'link' => string 'http://mandolinlady.com/members/arky/groups/' (length=44)
+          'css_id' => string 'groups' (length=6)
+          'show_for_displayed_user' => boolean true
+          'position' => int 70
+          'screen_function' => string 'groups_screen_my_groups' (length=23)
+          'default_subnav_slug' => string 'my-groups' (length=9)
+      'messages' => 
+        array (size=8)
+          'name' => string 'Messages <span>0</span>' (length=23)
+          'slug' => string 'messages' (length=8)
+          'link' => string 'http://mandolinlady.com/members/arky/messages/' (length=46)
+          'css_id' => string 'messages' (length=8)
+          'show_for_displayed_user' => boolean false
+          'position' => int 50
+          'screen_function' => string 'messages_screen_inbox' (length=21)
+          'default_subnav_slug' => string 'inbox' (length=5)
+      'settings' => 
+        array (size=8)
+          'name' => string 'Settings' (length=8)
+          'slug' => string 'settings' (length=8)
+          'link' => string 'http://mandolinlady.com/members/arky/settings/' (length=46)
+          'css_id' => string 'settings' (length=8)
+          'show_for_displayed_user' => boolean true
+          'position' => int 100
+          'screen_function' => string 'bp_settings_screen_general' (length=26)
+          'default_subnav_slug' => string 'general' (length=7)
+      'profile' => 
+        array (size=8)
+          'name' => string 'Profile' (length=7)
+          'slug' => string 'profile' (length=7)
+          'link' => string 'http://mandolinlady.com/members/arky/profile/' (length=45)
+          'css_id' => string 'xprofile' (length=8)
+          'show_for_displayed_user' => boolean true
+          'position' => int 20
+          'screen_function' => string 'xprofile_screen_display_profile' (length=31)
+          'default_subnav_slug' => string 'public' (length=6)
+      'classifieds' => 
+        array (size=8)
+          'name' => string 'Classifieds' (length=11)
+          'slug' => string 'classifieds' (length=11)
+          'link' => string 'http://mandolinlady.com/members/arky/classifieds/' (length=49)
+          'css_id' => string 'classifieds' (length=11)
+          'show_for_displayed_user' => boolean true
+          'position' => int 100
+          'screen_function' => 
+            array (size=2)
+              0 => &
+                object(Classifieds_Core_BuddyPress)[113]
+                  public 'plugin_version' => string '2.3.3.2' (length=7)
+                  public 'plugin_db_version' => string '2.0' (length=3)
+                  public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/classifieds/' (length=55)
+                  public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\classifieds/' (length=60)
+                  public 'text_domain' => string 'classifieds' (length=11)
+                  public 'options_name' => string 'classifieds_options' (length=19)
+                  public 'plugin_prefix' => string 'cf_' (length=3)
+                  public 'post_type' => string 'classifieds' (length=11)
+                  public 'taxonomy_objects' => 
+                    array (size=2)
+                      'classifieds_tags' => 
+                        object(stdClass)[136]
+                          public 'hierarchical' => boolean false
+                          public 'update_count_callback' => string '' (length=0)
+                          public 'rewrite' => 
+                            array (size=4)
+                              'slug' => string 'cf-tags' (length=7)
+                              'with_front' => boolean false
+                              'hierarchical' => boolean false
+                              'ep_mask' => int 0
+                          public 'query_var' => string 'classifieds_tags' (length=16)
+                          public 'public' => boolean true
+                          public 'show_ui' => boolean true
+                          public 'show_tagcloud' => boolean true
+                          public '_builtin' => boolean false
+                          public 'labels' => 
+                            object(stdClass)[137]
+                              public 'name' => string 'Classified Tags' (length=15)
+                              public 'singular_name' => string 'Classified Tag' (length=14)
+                              public 'search_items' => string 'Search Classified Tags' (length=22)
+                              public 'popular_items' => string 'Popular Classified Tags' (length=23)
+                              public 'all_items' => string 'All Classified Tags' (length=19)
+                              public 'parent_item' => null
+                              public 'parent_item_colon' => null
+                              public 'edit_item' => string 'Edit Classified Tag' (length=19)
+                              public 'view_item' => string 'View Tag' (length=8)
+                              public 'update_item' => string 'Update Classified Tag' (length=21)
+                              public 'add_new_item' => string 'Add New Classified Tag' (length=22)
+                              public 'new_item_name' => string 'New Classified Tag Name' (length=23)
+                              public 'separate_items_with_commas' => string 'Separate Classified tags with commas' (length=36)
+                              public 'add_or_remove_items' => string 'Add or remove Classified tags' (length=29)
+                              public 'choose_from_most_used' => string 'Choose from the most used Classified tags' (length=41)
+                              public 'menu_name' => string 'Classified Tags' (length=15)
+                              public 'name_admin_bar' => string 'Classified Tag' (length=14)
+                          public 'show_in_nav_menus' => boolean true
+                          public 'cap' => 
+                            object(stdClass)[135]
+                              public 'manage_terms' => string 'manage_categories' (length=17)
+                              public 'edit_terms' => string 'manage_categories' (length=17)
+                              public 'delete_terms' => string 'manage_categories' (length=17)
+                              public 'assign_terms' => string 'edit_classifieds' (length=16)
+                          public 'name' => string 'classifieds_tags' (length=16)
+                          public 'object_type' => 
+                            array (size=1)
+                              0 => string 'classifieds' (length=11)
+                          public 'label' => string 'Classified Tags' (length=15)
+                      'classifieds_categories' => 
+                        object(stdClass)[139]
+                          public 'hierarchical' => boolean true
+                          public 'update_count_callback' => string '' (length=0)
+                          public 'rewrite' => 
+                            array (size=4)
+                              'slug' => string 'cf-categories' (length=13)
+                              'with_front' => boolean false
+                              'hierarchical' => boolean true
+                              'ep_mask' => int 0
+                          public 'query_var' => string 'classifieds_categories' (length=22)
+                          public 'public' => boolean true
+                          public 'show_ui' => boolean true
+                          public 'show_tagcloud' => boolean true
+                          public '_builtin' => boolean false
+                          public 'labels' => 
+                            object(stdClass)[140]
+                              public 'name' => string 'Classified Categories' (length=21)
+                              public 'singular_name' => string 'Classified Category' (length=19)
+                              public 'search_items' => string 'Search Classified Categories' (length=28)
+                              public 'popular_items' => string 'Popular Classified Categories' (length=29)
+                              public 'all_items' => string 'All Classified Categories' (length=25)
+                              public 'parent_item' => string 'Parent Category' (length=15)
+                              public 'parent_item_colon' => string 'Parent Category:' (length=16)
+                              public 'edit_item' => string 'Edit Classified Category' (length=24)
+                              public 'view_item' => string 'View Category' (length=13)
+                              public 'update_item' => string 'Update Classified Category' (length=26)
+                              public 'add_new_item' => string 'Add New Classified Category' (length=27)
+                              public 'new_item_name' => string 'New Classified Category' (length=23)
+                              public 'separate_items_with_commas' => null
+                              public 'add_or_remove_items' => string 'Add or remove Classified categories' (length=35)
+                              public 'choose_from_most_used' => null
+                              public 'menu_name' => string 'Classified Categories' (length=21)
+                              public 'name_admin_bar' => string 'Classified Category' (length=19)
+                          public 'show_in_nav_menus' => boolean true
+                          public 'cap' => 
+                            object(stdClass)[138]
+                              public 'manage_terms' => string 'manage_categories' (length=17)
+                              public 'edit_terms' => string 'manage_categories' (length=17)
+                              public 'delete_terms' => string 'manage_categories' (length=17)
+                              public 'assign_terms' => string 'edit_classifieds' (length=16)
+                          public 'name' => string 'classifieds_categories' (length=22)
+                          public 'object_type' => 
+                            array (size=1)
+                              0 => string 'classifieds' (length=11)
+                          public 'label' => string 'Classified Categories' (length=21)
+                  public 'taxonomy_names' => 
+                    array (size=2)
+                      0 => string 'classifieds_tags' (length=16)
+                      1 => string 'classifieds_categories' (length=22)
+                  public 'custom_fields' => 
+                    array (size=1)
+                      'duration' => string '_ct_selectbox_4cf582bd61fa4' (length=27)
+                  public 'custom_fields_prefix' => string '_ct_' (length=4)
+                  public 'user_role' => string 'subscriber' (length=10)
+                  public 'form_valid' => boolean true
+                  public 'bp_active' => boolean true
+                  public 'login_error' => null
+                  public 'current_user' => 
+                    object(WP_User)[154]
+                      public 'data' => 
+                        object(stdClass)[156]
+                          public 'ID' => string '1' (length=1)
+                          public 'user_login' => string 'arky' (length=4)
+                          public 'user_pass' => string '$P$BCExqZgzVeHecnspPfJUV8.B7T7zO60' (length=34)
+                          public 'user_nicename' => string 'arky' (length=4)
+                          public 'user_email' => string 'abaileytn@gmail.com' (length=19)
+                          public 'user_url' => string '' (length=0)
+                          public 'user_registered' => string '2013-03-19 16:25:51' (length=19)
+                          public 'user_activation_key' => string '' (length=0)
+                          public 'user_status' => string '0' (length=1)
+                          public 'display_name' => string 'arky' (length=4)
+                          public 'spam' => string '0' (length=1)
+                          public 'deleted' => string '0' (length=1)
+                      public 'ID' => int 1
+                      public 'caps' => 
+                        array (size=3)
+                          'administrator' => boolean true
+                          'create_listings' => boolean true
+                          'create_classifieds' => boolean true
+                      public 'cap_key' => string 'wp_capabilities' (length=15)
+                      public 'roles' => 
+                        array (size=1)
+                          0 => string 'administrator' (length=13)
+                      public 'allcaps' => 
+                        array (size=93)
+                          'switch_themes' => boolean true
+                          'edit_themes' => boolean true
+                          'activate_plugins' => boolean true
+                          'edit_plugins' => boolean true
+                          'edit_users' => boolean true
+                          'edit_files' => boolean true
+                          'manage_options' => boolean true
+                          'moderate_comments' => boolean true
+                          'manage_categories' => boolean true
+                          'manage_links' => boolean true
+                          'upload_files' => boolean true
+                          'import' => boolean true
+                          'unfiltered_html' => boolean true
+                          'edit_posts' => boolean true
+                          'edit_others_posts' => boolean true
+                          'edit_published_posts' => boolean true
+                          'publish_posts' => boolean true
+                          'edit_pages' => boolean true
+                          'read' => boolean true
+                          'level_10' => boolean true
+                          'level_9' => boolean true
+                          'level_8' => boolean true
+                          'level_7' => boolean true
+                          'level_6' => boolean true
+                          'level_5' => boolean true
+                          'level_4' => boolean true
+                          'level_3' => boolean true
+                          'level_2' => boolean true
+                          'level_1' => boolean true
+                          'level_0' => boolean true
+                          'edit_others_pages' => boolean true
+                          'edit_published_pages' => boolean true
+                          'publish_pages' => boolean true
+                          'delete_pages' => boolean true
+                          'delete_others_pages' => boolean true
+                          'delete_published_pages' => boolean true
+                          'delete_posts' => boolean true
+                          'delete_others_posts' => boolean true
+                          'delete_published_posts' => boolean true
+                          'delete_private_posts' => boolean true
+                          'edit_private_posts' => boolean true
+                          'read_private_posts' => boolean true
+                          'delete_private_pages' => boolean true
+                          'edit_private_pages' => boolean true
+                          'read_private_pages' => boolean true
+                          'delete_users' => boolean true
+                          'create_users' => boolean true
+                          'unfiltered_upload' => boolean true
+                          'edit_dashboard' => boolean true
+                          'update_plugins' => boolean true
+                          'delete_plugins' => boolean true
+                          'install_plugins' => boolean true
+                          'update_themes' => boolean true
+                          'install_themes' => boolean true
+                          'update_core' => boolean true
+                          'list_users' => boolean true
+                          'remove_users' => boolean true
+                          'add_users' => boolean true
+                          'promote_users' => boolean true
+                          'edit_theme_options' => boolean true
+                          'delete_themes' => boolean true
+                          'export' => boolean true
+                          'read_listings' => boolean true
+                          'read_private_listings' => boolean true
+                          'publish_listings' => boolean true
+                          'edit_listings' => boolean true
+                          'edit_published_listings' => boolean true
+                          'edit_private_listings' => boolean true
+                          'delete_listings' => boolean true
+                          'delete_published_listings' => boolean true
+                          'delete_private_listings' => boolean true
+                          'edit_others_listings' => boolean true
+                          'delete_others_listings' => boolean true
+                          'create_listings' => boolean true
+                          'read_classifieds' => boolean true
+                          'read_private_classifieds' => boolean true
+                          'publish_classifieds' => boolean true
+                          'edit_classifieds' => boolean true
+                          'edit_published_classifieds' => boolean true
+                          'edit_private_classifieds' => boolean true
+                          'delete_classifieds' => boolean true
+                          'delete_published_classifieds' => boolean true
+                          'delete_private_classifieds' => boolean true
+                          'edit_others_classifieds' => boolean true
+                          'delete_others_classifieds' => boolean true
+                          'create_classifieds' => boolean true
+                          'create_posts' => boolean true
+                          'list_roles' => boolean true
+                          'create_roles' => boolean true
+                          'delete_roles' => boolean true
+                          'edit_roles' => boolean true
+                          'restrict_content' => boolean true
+                          'administrator' => boolean true
+                      public 'filter' => null
+                  public 'user_credits' => int 0
+                  public 'flush_plugin_data' => boolean false
+                  public 'pagination_range' => int 4
+                  public 'pagination_top' => boolean false
+                  public 'pagination_bottom' => boolean false
+                  public 'classifieds_page_id' => int 129
+                  public 'classifieds_page_slug' => string 'classifieds' (length=11)
+                  public 'classifieds_page_name' => string 'classifieds' (length=11)
+                  public 'my_classifieds_page_id' => int 130
+                  public 'my_classifieds_page_slug' => string 'my-classifieds' (length=14)
+                  public 'my_classifieds_page_name' => string 'my-classifieds' (length=14)
+                  public 'checkout_page_id' => int 131
+                  public 'checkout_page_slug' => string 'checkout' (length=8)
+                  public 'checkout_page_name' => string 'checkout' (length=8)
+                  public 'is_classifieds_page' => boolean false
+                  public 'use_credits' => boolean true
+                  public 'use_paypal' => boolean true
+                  public 'use_authorizenet' => boolean false
+                  public 'use_free' => boolean false
+                  public 'use_recurring' => boolean false
+                  public 'use_one_time' => boolean false
+                  public 'transactions' => 
+                    object(CF_Transactions)[303]
+                      public 'text_domain' => string 'classifieds' (length=11)
+                      public 'options_name' => string 'classifieds_options' (length=19)
+                      public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\classifieds/' (length=60)
+                      public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/classifieds/' (length=55)
+                      public 'user_id' => int 1
+                      public 'blog_id' => string '1' (length=1)
+                      protected '_transactions' => 
+                        array (size=5)
+                          'credits' => int 0
+                          'credits_log' => 
+                            array (size=0)
+                              empty
+                          'order' => 
+                            array (size=7)
+                              'billing_type' => string '' (length=0)
+                              'billing_frequency' => string '' (length=0)
+                              'billing_period' => string '' (length=0)
+                              'payment_method' => string '' (length=0)
+                              'status' => string '' (length=0)
+                              'expires' => int 0
+                              'order_info' => 
+                                array (size=0)
+                                  empty
+                          'paypal' => 
+                            array (size=3)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                              'key' => string 'x' (length=1)
+                          'authorizenet' => 
+                            array (size=2)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                      protected '_credits' => int 0
+                      protected '_credits_log' => 
+                        array (size=0)
+                          empty
+                      protected '_order' => int 0
+                      protected '_status' => null
+                      protected '_expires' => int 0
+                      protected '_billing_type' => string '' (length=0)
+                      protected '_ordeer_info' => string '' (length=0)
+                      protected '_paypal' => null
+                      protected '_authorizenet' => null
+                      protected 'struc' => 
+                        array (size=5)
+                          'credits' => int 0
+                          'credits_log' => 
+                            array (size=0)
+                              empty
+                          'order' => 
+                            array (size=7)
+                              'billing_type' => string '' (length=0)
+                              'billing_frequency' => string '' (length=0)
+                              'billing_period' => string '' (length=0)
+                              'payment_method' => string '' (length=0)
+                              'status' => string '' (length=0)
+                              'expires' => int 0
+                              'order_info' => 
+                                array (size=0)
+                                  empty
+                          'paypal' => 
+                            array (size=3)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                              'key' => string 'x' (length=1)
+                          'authorizenet' => 
+                            array (size=2)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                  public 'capability_map' => 
+                    array (size=12)
+                      'read_classifieds' => string 'View classifieds.' (length=17)
+                      'read_private_classifieds' => string 'View private classifieds.' (length=25)
+                      'publish_classifieds' => string 'Add classifieds.' (length=16)
+                      'edit_classifieds' => string 'Edit classifieds.' (length=17)
+                      'edit_published_classifieds' => string 'Edit published classifieds.' (length=27)
+                      'edit_private_classifieds' => string 'Edit private classifieds.' (length=25)
+                      'delete_classifieds' => string 'Delete classifieds' (length=18)
+                      'delete_published_classifieds' => string 'Delete published classifieds.' (length=29)
+                      'delete_private_classifieds' => string 'Delete private classifieds.' (length=27)
+                      'edit_others_classifieds' => string 'Edit others' classifieds.' (length=25)
+                      'delete_others_classifieds' => string 'Delete others' classifieds.' (length=27)
+                      'upload_files' => string 'Upload files.' (length=13)
+                  public 'add_classified_page_id' => int 132
+                  public 'add_classified_page_page_slug' => string 'add-classified' (length=14)
+                  public 'edit_classified_page_id' => int 133
+                  public 'edit_classified_page_slug' => string 'edit-classified' (length=15)
+                  public 'my_credits_page_id' => int 134
+                  public 'my_credits_page_slug' => string 'my-credits' (length=10)
+                  public 'signin_page_id' => int 135
+                  public 'signin_page_slug' => string 'signin' (length=6)
+              1 => string 'load_template' (length=13)
+          'default_subnav_slug' => boolean false
+      'listings' => 
+        array (size=8)
+          'name' => string 'Listings' (length=8)
+          'slug' => string 'listings' (length=8)
+          'link' => string 'http://mandolinlady.com/members/arky/listings/' (length=46)
+          'css_id' => string 'listings' (length=8)
+          'show_for_displayed_user' => boolean true
+          'position' => int 100
+          'screen_function' => 
+            array (size=2)
+              0 => &
+                object(Directory_Core_Buddypress)[112]
+                  public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/directory/' (length=53)
+                  public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\directory/' (length=58)
+                  public 'text_domain' => string 'dr_text_domain' (length=14)
+                  public 'options_name' => string 'dr_options' (length=10)
+                  public 'capability_map' => 
+                    array (size=12)
+                      'read_listings' => string 'View listings.' (length=14)
+                      'read_private_listings' => string 'View private listings.' (length=22)
+                      'publish_listings' => string 'Add listings.' (length=13)
+                      'edit_listings' => string 'Edit listings.' (length=14)
+                      'edit_published_listings' => string 'Edit published listings.' (length=24)
+                      'edit_private_listings' => string 'Edit private listings.' (length=22)
+                      'delete_listings' => string 'Delete listings' (length=15)
+                      'delete_published_listings' => string 'Delete published listings.' (length=26)
+                      'delete_private_listings' => string 'Delete private listings.' (length=24)
+                      'edit_others_listings' => string 'Edit others' listings.' (length=22)
+                      'delete_others_listings' => string 'Delete others' listings.' (length=24)
+                      'upload_files' => string 'Upload files.' (length=13)
+                  public 'is_directory_page' => boolean false
+                  public 'directory_template' => null
+                  public 'dr_first_thumbnail' => null
+                  public 'post_type' => string 'directory_listing' (length=17)
+                  public 'bp_active' => boolean true
+                  public 'directory_page_id' => int 4
+                  public 'directory_page_slug' => string 'listings' (length=8)
+                  public 'add_listing_page_id' => int 6
+                  public 'add_listing_page_slug' => string 'add-listing' (length=11)
+                  public 'edit_listing_page_id' => int 7
+                  public 'edit_listing_page_slug' => string 'edit-listing' (length=12)
+                  public 'my_listings_page_id' => int 5
+                  public 'my_listings_page_slug' => string 'my-listings' (length=11)
+                  public 'signup_page_id' => int 9
+                  public 'signup_page_slug' => string 'signup' (length=6)
+                  public 'signin_page_id' => int 69
+                  public 'signin_page_slug' => string 'signin' (length=6)
+                  public 'pagination_range' => int 4
+                  public 'pagination_top' => boolean false
+                  public 'pagination_bottom' => boolean false
+                  public 'use_credits' => boolean false
+                  public 'use_paypal' => boolean true
+                  public 'use_authorizenet' => boolean false
+                  public 'use_free' => boolean false
+                  public 'use_recurring' => boolean false
+                  public 'use_one_time' => boolean true
+                  public 'transactions' => 
+                    object(DR_Transactions)[297]
+                      public 'text_domain' => string 'dr_text_domain' (length=14)
+                      public 'options_name' => string 'dr_options' (length=10)
+                      public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\directory/' (length=58)
+                      public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/directory/' (length=53)
+                      public 'user_id' => int 1
+                      public 'blog_id' => string '1' (length=1)
+                      protected '_transactions' => 
+                        array (size=5)
+                          'credits' => int 0
+                          'credits_log' => 
+                            array (size=0)
+                              empty
+                          'order' => 
+                            array (size=7)
+                              'billing_type' => string '' (length=0)
+                              'billing_frequency' => string '' (length=0)
+                              'billing_period' => string '' (length=0)
+                              'payment_method' => string '' (length=0)
+                              'status' => string '' (length=0)
+                              'expires' => int 0
+                              'order_info' => 
+                                array (size=0)
+                                  empty
+                          'paypal' => 
+                            array (size=3)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                              'key' => string 'x' (length=1)
+                          'authorizenet' => 
+                            array (size=2)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                      protected '_credits' => int 0
+                      protected '_credits_log' => 
+                        array (size=0)
+                          empty
+                      protected '_order' => int 0
+                      protected '_status' => null
+                      protected '_expires' => int 0
+                      protected '_billing_type' => string '' (length=0)
+                      protected '_ordeer_info' => string '' (length=0)
+                      protected '_paypal' => null
+                      protected '_authorizenet' => null
+                      protected 'struc' => 
+                        array (size=5)
+                          'credits' => int 0
+                          'credits_log' => 
+                            array (size=0)
+                              empty
+                          'order' => 
+                            array (size=7)
+                              'billing_type' => string '' (length=0)
+                              'billing_frequency' => string '' (length=0)
+                              'billing_period' => string '' (length=0)
+                              'payment_method' => string '' (length=0)
+                              'status' => string '' (length=0)
+                              'expires' => int 0
+                              'order_info' => 
+                                array (size=0)
+                                  empty
+                          'paypal' => 
+                            array (size=3)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                              'key' => string 'x' (length=1)
+                          'authorizenet' => 
+                            array (size=2)
+                              'transactions' => 
+                                array (size=0)
+                                  empty
+                              'profile_id' => string '' (length=0)
+                  public 'current_user' => 
+                    object(WP_User)[154]
+                      public 'data' => 
+                        object(stdClass)[156]
+                          public 'ID' => string '1' (length=1)
+                          public 'user_login' => string 'arky' (length=4)
+                          public 'user_pass' => string '$P$BCExqZgzVeHecnspPfJUV8.B7T7zO60' (length=34)
+                          public 'user_nicename' => string 'arky' (length=4)
+                          public 'user_email' => string 'abaileytn@gmail.com' (length=19)
+                          public 'user_url' => string '' (length=0)
+                          public 'user_registered' => string '2013-03-19 16:25:51' (length=19)
+                          public 'user_activation_key' => string '' (length=0)
+                          public 'user_status' => string '0' (length=1)
+                          public 'display_name' => string 'arky' (length=4)
+                          public 'spam' => string '0' (length=1)
+                          public 'deleted' => string '0' (length=1)
+                      public 'ID' => int 1
+                      public 'caps' => 
+                        array (size=3)
+                          'administrator' => boolean true
+                          'create_listings' => boolean true
+                          'create_classifieds' => boolean true
+                      public 'cap_key' => string 'wp_capabilities' (length=15)
+                      public 'roles' => 
+                        array (size=1)
+                          0 => string 'administrator' (length=13)
+                      public 'allcaps' => 
+                        array (size=93)
+                          'switch_themes' => boolean true
+                          'edit_themes' => boolean true
+                          'activate_plugins' => boolean true
+                          'edit_plugins' => boolean true
+                          'edit_users' => boolean true
+                          'edit_files' => boolean true
+                          'manage_options' => boolean true
+                          'moderate_comments' => boolean true
+                          'manage_categories' => boolean true
+                          'manage_links' => boolean true
+                          'upload_files' => boolean true
+                          'import' => boolean true
+                          'unfiltered_html' => boolean true
+                          'edit_posts' => boolean true
+                          'edit_others_posts' => boolean true
+                          'edit_published_posts' => boolean true
+                          'publish_posts' => boolean true
+                          'edit_pages' => boolean true
+                          'read' => boolean true
+                          'level_10' => boolean true
+                          'level_9' => boolean true
+                          'level_8' => boolean true
+                          'level_7' => boolean true
+                          'level_6' => boolean true
+                          'level_5' => boolean true
+                          'level_4' => boolean true
+                          'level_3' => boolean true
+                          'level_2' => boolean true
+                          'level_1' => boolean true
+                          'level_0' => boolean true
+                          'edit_others_pages' => boolean true
+                          'edit_published_pages' => boolean true
+                          'publish_pages' => boolean true
+                          'delete_pages' => boolean true
+                          'delete_others_pages' => boolean true
+                          'delete_published_pages' => boolean true
+                          'delete_posts' => boolean true
+                          'delete_others_posts' => boolean true
+                          'delete_published_posts' => boolean true
+                          'delete_private_posts' => boolean true
+                          'edit_private_posts' => boolean true
+                          'read_private_posts' => boolean true
+                          'delete_private_pages' => boolean true
+                          'edit_private_pages' => boolean true
+                          'read_private_pages' => boolean true
+                          'delete_users' => boolean true
+                          'create_users' => boolean true
+                          'unfiltered_upload' => boolean true
+                          'edit_dashboard' => boolean true
+                          'update_plugins' => boolean true
+                          'delete_plugins' => boolean true
+                          'install_plugins' => boolean true
+                          'update_themes' => boolean true
+                          'install_themes' => boolean true
+                          'update_core' => boolean true
+                          'list_users' => boolean true
+                          'remove_users' => boolean true
+                          'add_users' => boolean true
+                          'promote_users' => boolean true
+                          'edit_theme_options' => boolean true
+                          'delete_themes' => boolean true
+                          'export' => boolean true
+                          'read_listings' => boolean true
+                          'read_private_listings' => boolean true
+                          'publish_listings' => boolean true
+                          'edit_listings' => boolean true
+                          'edit_published_listings' => boolean true
+                          'edit_private_listings' => boolean true
+                          'delete_listings' => boolean true
+                          'delete_published_listings' => boolean true
+                          'delete_private_listings' => boolean true
+                          'edit_others_listings' => boolean true
+                          'delete_others_listings' => boolean true
+                          'create_listings' => boolean true
+                          'read_classifieds' => boolean true
+                          'read_private_classifieds' => boolean true
+                          'publish_classifieds' => boolean true
+                          'edit_classifieds' => boolean true
+                          'edit_published_classifieds' => boolean true
+                          'edit_private_classifieds' => boolean true
+                          'delete_classifieds' => boolean true
+                          'delete_published_classifieds' => boolean true
+                          'delete_private_classifieds' => boolean true
+                          'edit_others_classifieds' => boolean true
+                          'delete_others_classifieds' => boolean true
+                          'create_classifieds' => boolean true
+                          'create_posts' => boolean true
+                          'list_roles' => boolean true
+                          'create_roles' => boolean true
+                          'delete_roles' => boolean true
+                          'edit_roles' => boolean true
+                          'restrict_content' => boolean true
+                          'administrator' => boolean true
+                      public 'filter' => null
+                  public 'user_credits' => int 0
+                  public 'my_credits_page_id' => int 8
+                  public 'my_credits_page_slug' => string 'my-credits' (length=10)
+              1 => string 'load_template' (length=13)
+          'default_subnav_slug' => boolean false
+  public 'bp_options_nav' => 
+    array (size=9)
+      'activity' => 
+        array (size=5)
+          'just-me' => 
+            array (size=7)
+              'name' => string 'Personal' (length=8)
+              'link' => string 'http://mandolinlady.com/members/bryant/activity/' (length=48)
+              'slug' => string 'just-me' (length=7)
+              'css_id' => string 'just-me' (length=7)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_activity_screen_my_activity' (length=30)
+          'mentions' => 
+            array (size=7)
+              'name' => string 'Mentions' (length=8)
+              'link' => string 'http://mandolinlady.com/members/bryant/activity/mentions/' (length=57)
+              'slug' => string 'mentions' (length=8)
+              'css_id' => string 'activity-mentions' (length=17)
+              'position' => int 20
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_activity_screen_mentions' (length=27)
+          'favorites' => 
+            array (size=7)
+              'name' => string 'Favorites' (length=9)
+              'link' => string 'http://mandolinlady.com/members/bryant/activity/favorites/' (length=58)
+              'slug' => string 'favorites' (length=9)
+              'css_id' => string 'activity-favs' (length=13)
+              'position' => int 30
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_activity_screen_favorites' (length=28)
+          'friends' => 
+            array (size=7)
+              'name' => string 'Friends' (length=7)
+              'link' => string 'http://mandolinlady.com/members/bryant/activity/friends/' (length=56)
+              'slug' => string 'friends' (length=7)
+              'css_id' => string 'activity-friends' (length=16)
+              'position' => int 40
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_activity_screen_friends' (length=26)
+          'groups' => 
+            array (size=7)
+              'name' => string 'Groups' (length=6)
+              'link' => string 'http://mandolinlady.com/members/bryant/activity/groups/' (length=55)
+              'slug' => string 'groups' (length=6)
+              'css_id' => string 'activity-groups' (length=15)
+              'position' => int 50
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_activity_screen_groups' (length=25)
+      'blogs' => 
+        array (size=1)
+          'my-sites' => 
+            array (size=7)
+              'name' => string 'My Sites' (length=8)
+              'link' => string 'http://mandolinlady.com/members/bryant/blogs/' (length=45)
+              'slug' => string 'my-sites' (length=8)
+              'css_id' => string 'my-sites' (length=8)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_blogs_screen_my_blogs' (length=24)
+      'friends' => 
+        array (size=2)
+          'my-friends' => 
+            array (size=7)
+              'name' => string 'Friendships' (length=11)
+              'link' => string 'http://mandolinlady.com/members/bryant/friends/' (length=47)
+              'slug' => string 'my-friends' (length=10)
+              'css_id' => string 'friends-my-friends' (length=18)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => string 'friends_screen_my_friends' (length=25)
+          'requests' => 
+            array (size=7)
+              'name' => string 'Requests' (length=8)
+              'link' => string 'http://mandolinlady.com/members/bryant/friends/requests/' (length=56)
+              'slug' => string 'requests' (length=8)
+              'css_id' => string 'requests' (length=8)
+              'position' => int 20
+              'user_has_access' => boolean true
+              'screen_function' => string 'friends_screen_requests' (length=23)
+      'groups' => 
+        array (size=2)
+          'my-groups' => 
+            array (size=7)
+              'name' => string 'Memberships' (length=11)
+              'link' => string 'http://mandolinlady.com/members/bryant/groups/' (length=46)
+              'slug' => string 'my-groups' (length=9)
+              'css_id' => string 'groups-my-groups' (length=16)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => string 'groups_screen_my_groups' (length=23)
+          'invites' => 
+            array (size=7)
+              'name' => string 'Invitations' (length=11)
+              'link' => string 'http://mandolinlady.com/members/bryant/groups/invites/' (length=54)
+              'slug' => string 'invites' (length=7)
+              'css_id' => string 'invites' (length=7)
+              'position' => int 30
+              'user_has_access' => boolean true
+              'screen_function' => string 'groups_screen_group_invites' (length=27)
+      'messages' => 
+        array (size=4)
+          'inbox' => 
+            array (size=7)
+              'name' => string 'Inbox' (length=5)
+              'link' => string 'http://mandolinlady.com/members/bryant/messages/' (length=48)
+              'slug' => string 'inbox' (length=5)
+              'css_id' => string 'inbox' (length=5)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => string 'messages_screen_inbox' (length=21)
+          'sentbox' => 
+            array (size=7)
+              'name' => string 'Sent' (length=4)
+              'link' => string 'http://mandolinlady.com/members/bryant/messages/sentbox/' (length=56)
+              'slug' => string 'sentbox' (length=7)
+              'css_id' => string 'sentbox' (length=7)
+              'position' => int 20
+              'user_has_access' => boolean true
+              'screen_function' => string 'messages_screen_sentbox' (length=23)
+          'compose' => 
+            array (size=7)
+              'name' => string 'Compose' (length=7)
+              'link' => string 'http://mandolinlady.com/members/bryant/messages/compose/' (length=56)
+              'slug' => string 'compose' (length=7)
+              'css_id' => string 'compose' (length=7)
+              'position' => int 30
+              'user_has_access' => boolean true
+              'screen_function' => string 'messages_screen_compose' (length=23)
+          'notices' => 
+            array (size=7)
+              'name' => string 'Notices' (length=7)
+              'link' => string 'http://mandolinlady.com/members/bryant/messages/notices/' (length=56)
+              'slug' => string 'notices' (length=7)
+              'css_id' => string 'notices' (length=7)
+              'position' => int 90
+              'user_has_access' => boolean true
+              'screen_function' => string 'messages_screen_notices' (length=23)
+      'settings' => 
+        array (size=4)
+          'general' => 
+            array (size=7)
+              'name' => string 'General' (length=7)
+              'link' => string 'http://mandolinlady.com/members/bryant/settings/' (length=48)
+              'slug' => string 'general' (length=7)
+              'css_id' => string 'general' (length=7)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_settings_screen_general' (length=26)
+          'notifications' => 
+            array (size=7)
+              'name' => string 'Notifications' (length=13)
+              'link' => string 'http://mandolinlady.com/members/bryant/settings/notifications/' (length=62)
+              'slug' => string 'notifications' (length=13)
+              'css_id' => string 'notifications' (length=13)
+              'position' => int 20
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_settings_screen_notification' (length=31)
+          'capabilities' => 
+            array (size=7)
+              'name' => string 'Capabilities' (length=12)
+              'link' => string 'http://mandolinlady.com/members/bryant/settings/capabilities/' (length=61)
+              'slug' => string 'capabilities' (length=12)
+              'css_id' => string 'capabilities' (length=12)
+              'position' => int 80
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_settings_screen_capabilities' (length=31)
+          'delete-account' => 
+            array (size=7)
+              'name' => string 'Delete Account' (length=14)
+              'link' => string 'http://mandolinlady.com/members/bryant/settings/delete-account/' (length=63)
+              'slug' => string 'delete-account' (length=14)
+              'css_id' => string 'delete-account' (length=14)
+              'position' => int 90
+              'user_has_access' => boolean true
+              'screen_function' => string 'bp_settings_screen_delete_account' (length=33)
+      'profile' => 
+        array (size=3)
+          'public' => 
+            array (size=7)
+              'name' => string 'View' (length=4)
+              'link' => string 'http://mandolinlady.com/members/bryant/profile/' (length=47)
+              'slug' => string 'public' (length=6)
+              'css_id' => string 'public' (length=6)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => string 'xprofile_screen_display_profile' (length=31)
+          'edit' => 
+            array (size=7)
+              'name' => string 'Edit' (length=4)
+              'link' => string 'http://mandolinlady.com/members/bryant/profile/edit/' (length=52)
+              'slug' => string 'edit' (length=4)
+              'css_id' => string 'edit' (length=4)
+              'position' => int 20
+              'user_has_access' => boolean true
+              'screen_function' => string 'xprofile_screen_edit_profile' (length=28)
+          'change-avatar' => 
+            array (size=7)
+              'name' => string 'Change Avatar' (length=13)
+              'link' => string 'http://mandolinlady.com/members/bryant/profile/change-avatar/' (length=61)
+              'slug' => string 'change-avatar' (length=13)
+              'css_id' => string 'change-avatar' (length=13)
+              'position' => int 30
+              'user_has_access' => boolean true
+              'screen_function' => string 'xprofile_screen_change_avatar' (length=29)
+      'classifieds' => 
+        array (size=1)
+          'all' => 
+            array (size=7)
+              'name' => string 'All' (length=3)
+              'link' => string 'http://mandolinlady.com/members/bryant/classifieds/all/' (length=55)
+              'slug' => string 'all' (length=3)
+              'css_id' => string 'all' (length=3)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => 
+                array (size=2)
+                  0 => &
+                    object(Classifieds_Core_BuddyPress)[113]
+                      public 'plugin_version' => string '2.3.3.2' (length=7)
+                      public 'plugin_db_version' => string '2.0' (length=3)
+                      public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/classifieds/' (length=55)
+                      public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\classifieds/' (length=60)
+                      public 'text_domain' => string 'classifieds' (length=11)
+                      public 'options_name' => string 'classifieds_options' (length=19)
+                      public 'plugin_prefix' => string 'cf_' (length=3)
+                      public 'post_type' => string 'classifieds' (length=11)
+                      public 'taxonomy_objects' => 
+                        array (size=2)
+                          'classifieds_tags' => 
+                            object(stdClass)[136]
+                              public 'hierarchical' => boolean false
+                              public 'update_count_callback' => string '' (length=0)
+                              public 'rewrite' => 
+                                array (size=4)
+                                  'slug' => string 'cf-tags' (length=7)
+                                  'with_front' => boolean false
+                                  'hierarchical' => boolean false
+                                  'ep_mask' => int 0
+                              public 'query_var' => string 'classifieds_tags' (length=16)
+                              public 'public' => boolean true
+                              public 'show_ui' => boolean true
+                              public 'show_tagcloud' => boolean true
+                              public '_builtin' => boolean false
+                              public 'labels' => 
+                                object(stdClass)[137]
+                                  public 'name' => string 'Classified Tags' (length=15)
+                                  public 'singular_name' => string 'Classified Tag' (length=14)
+                                  public 'search_items' => string 'Search Classified Tags' (length=22)
+                                  public 'popular_items' => string 'Popular Classified Tags' (length=23)
+                                  public 'all_items' => string 'All Classified Tags' (length=19)
+                                  public 'parent_item' => null
+                                  public 'parent_item_colon' => null
+                                  public 'edit_item' => string 'Edit Classified Tag' (length=19)
+                                  public 'view_item' => string 'View Tag' (length=8)
+                                  public 'update_item' => string 'Update Classified Tag' (length=21)
+                                  public 'add_new_item' => string 'Add New Classified Tag' (length=22)
+                                  public 'new_item_name' => string 'New Classified Tag Name' (length=23)
+                                  public 'separate_items_with_commas' => string 'Separate Classified tags with commas' (length=36)
+                                  public 'add_or_remove_items' => string 'Add or remove Classified tags' (length=29)
+                                  public 'choose_from_most_used' => string 'Choose from the most used Classified tags' (length=41)
+                                  public 'menu_name' => string 'Classified Tags' (length=15)
+                                  public 'name_admin_bar' => string 'Classified Tag' (length=14)
+                              public 'show_in_nav_menus' => boolean true
+                              public 'cap' => 
+                                object(stdClass)[135]
+                                  public 'manage_terms' => string 'manage_categories' (length=17)
+                                  public 'edit_terms' => string 'manage_categories' (length=17)
+                                  public 'delete_terms' => string 'manage_categories' (length=17)
+                                  public 'assign_terms' => string 'edit_classifieds' (length=16)
+                              public 'name' => string 'classifieds_tags' (length=16)
+                              public 'object_type' => 
+                                array (size=1)
+                                  0 => string 'classifieds' (length=11)
+                              public 'label' => string 'Classified Tags' (length=15)
+                          'classifieds_categories' => 
+                            object(stdClass)[139]
+                              public 'hierarchical' => boolean true
+                              public 'update_count_callback' => string '' (length=0)
+                              public 'rewrite' => 
+                                array (size=4)
+                                  'slug' => string 'cf-categories' (length=13)
+                                  'with_front' => boolean false
+                                  'hierarchical' => boolean true
+                                  'ep_mask' => int 0
+                              public 'query_var' => string 'classifieds_categories' (length=22)
+                              public 'public' => boolean true
+                              public 'show_ui' => boolean true
+                              public 'show_tagcloud' => boolean true
+                              public '_builtin' => boolean false
+                              public 'labels' => 
+                                object(stdClass)[140]
+                                  public 'name' => string 'Classified Categories' (length=21)
+                                  public 'singular_name' => string 'Classified Category' (length=19)
+                                  public 'search_items' => string 'Search Classified Categories' (length=28)
+                                  public 'popular_items' => string 'Popular Classified Categories' (length=29)
+                                  public 'all_items' => string 'All Classified Categories' (length=25)
+                                  public 'parent_item' => string 'Parent Category' (length=15)
+                                  public 'parent_item_colon' => string 'Parent Category:' (length=16)
+                                  public 'edit_item' => string 'Edit Classified Category' (length=24)
+                                  public 'view_item' => string 'View Category' (length=13)
+                                  public 'update_item' => string 'Update Classified Category' (length=26)
+                                  public 'add_new_item' => string 'Add New Classified Category' (length=27)
+                                  public 'new_item_name' => string 'New Classified Category' (length=23)
+                                  public 'separate_items_with_commas' => null
+                                  public 'add_or_remove_items' => string 'Add or remove Classified categories' (length=35)
+                                  public 'choose_from_most_used' => null
+                                  public 'menu_name' => string 'Classified Categories' (length=21)
+                                  public 'name_admin_bar' => string 'Classified Category' (length=19)
+                              public 'show_in_nav_menus' => boolean true
+                              public 'cap' => 
+                                object(stdClass)[138]
+                                  public 'manage_terms' => string 'manage_categories' (length=17)
+                                  public 'edit_terms' => string 'manage_categories' (length=17)
+                                  public 'delete_terms' => string 'manage_categories' (length=17)
+                                  public 'assign_terms' => string 'edit_classifieds' (length=16)
+                              public 'name' => string 'classifieds_categories' (length=22)
+                              public 'object_type' => 
+                                array (size=1)
+                                  0 => string 'classifieds' (length=11)
+                              public 'label' => string 'Classified Categories' (length=21)
+                      public 'taxonomy_names' => 
+                        array (size=2)
+                          0 => string 'classifieds_tags' (length=16)
+                          1 => string 'classifieds_categories' (length=22)
+                      public 'custom_fields' => 
+                        array (size=1)
+                          'duration' => string '_ct_selectbox_4cf582bd61fa4' (length=27)
+                      public 'custom_fields_prefix' => string '_ct_' (length=4)
+                      public 'user_role' => string 'subscriber' (length=10)
+                      public 'form_valid' => boolean true
+                      public 'bp_active' => boolean true
+                      public 'login_error' => null
+                      public 'current_user' => 
+                        object(WP_User)[154]
+                          public 'data' => 
+                            object(stdClass)[156]
+                              public 'ID' => string '1' (length=1)
+                              public 'user_login' => string 'arky' (length=4)
+                              public 'user_pass' => string '$P$BCExqZgzVeHecnspPfJUV8.B7T7zO60' (length=34)
+                              public 'user_nicename' => string 'arky' (length=4)
+                              public 'user_email' => string 'abaileytn@gmail.com' (length=19)
+                              public 'user_url' => string '' (length=0)
+                              public 'user_registered' => string '2013-03-19 16:25:51' (length=19)
+                              public 'user_activation_key' => string '' (length=0)
+                              public 'user_status' => string '0' (length=1)
+                              public 'display_name' => string 'arky' (length=4)
+                              public 'spam' => string '0' (length=1)
+                              public 'deleted' => string '0' (length=1)
+                          public 'ID' => int 1
+                          public 'caps' => 
+                            array (size=3)
+                              'administrator' => boolean true
+                              'create_listings' => boolean true
+                              'create_classifieds' => boolean true
+                          public 'cap_key' => string 'wp_capabilities' (length=15)
+                          public 'roles' => 
+                            array (size=1)
+                              0 => string 'administrator' (length=13)
+                          public 'allcaps' => 
+                            array (size=93)
+                              'switch_themes' => boolean true
+                              'edit_themes' => boolean true
+                              'activate_plugins' => boolean true
+                              'edit_plugins' => boolean true
+                              'edit_users' => boolean true
+                              'edit_files' => boolean true
+                              'manage_options' => boolean true
+                              'moderate_comments' => boolean true
+                              'manage_categories' => boolean true
+                              'manage_links' => boolean true
+                              'upload_files' => boolean true
+                              'import' => boolean true
+                              'unfiltered_html' => boolean true
+                              'edit_posts' => boolean true
+                              'edit_others_posts' => boolean true
+                              'edit_published_posts' => boolean true
+                              'publish_posts' => boolean true
+                              'edit_pages' => boolean true
+                              'read' => boolean true
+                              'level_10' => boolean true
+                              'level_9' => boolean true
+                              'level_8' => boolean true
+                              'level_7' => boolean true
+                              'level_6' => boolean true
+                              'level_5' => boolean true
+                              'level_4' => boolean true
+                              'level_3' => boolean true
+                              'level_2' => boolean true
+                              'level_1' => boolean true
+                              'level_0' => boolean true
+                              'edit_others_pages' => boolean true
+                              'edit_published_pages' => boolean true
+                              'publish_pages' => boolean true
+                              'delete_pages' => boolean true
+                              'delete_others_pages' => boolean true
+                              'delete_published_pages' => boolean true
+                              'delete_posts' => boolean true
+                              'delete_others_posts' => boolean true
+                              'delete_published_posts' => boolean true
+                              'delete_private_posts' => boolean true
+                              'edit_private_posts' => boolean true
+                              'read_private_posts' => boolean true
+                              'delete_private_pages' => boolean true
+                              'edit_private_pages' => boolean true
+                              'read_private_pages' => boolean true
+                              'delete_users' => boolean true
+                              'create_users' => boolean true
+                              'unfiltered_upload' => boolean true
+                              'edit_dashboard' => boolean true
+                              'update_plugins' => boolean true
+                              'delete_plugins' => boolean true
+                              'install_plugins' => boolean true
+                              'update_themes' => boolean true
+                              'install_themes' => boolean true
+                              'update_core' => boolean true
+                              'list_users' => boolean true
+                              'remove_users' => boolean true
+                              'add_users' => boolean true
+                              'promote_users' => boolean true
+                              'edit_theme_options' => boolean true
+                              'delete_themes' => boolean true
+                              'export' => boolean true
+                              'read_listings' => boolean true
+                              'read_private_listings' => boolean true
+                              'publish_listings' => boolean true
+                              'edit_listings' => boolean true
+                              'edit_published_listings' => boolean true
+                              'edit_private_listings' => boolean true
+                              'delete_listings' => boolean true
+                              'delete_published_listings' => boolean true
+                              'delete_private_listings' => boolean true
+                              'edit_others_listings' => boolean true
+                              'delete_others_listings' => boolean true
+                              'create_listings' => boolean true
+                              'read_classifieds' => boolean true
+                              'read_private_classifieds' => boolean true
+                              'publish_classifieds' => boolean true
+                              'edit_classifieds' => boolean true
+                              'edit_published_classifieds' => boolean true
+                              'edit_private_classifieds' => boolean true
+                              'delete_classifieds' => boolean true
+                              'delete_published_classifieds' => boolean true
+                              'delete_private_classifieds' => boolean true
+                              'edit_others_classifieds' => boolean true
+                              'delete_others_classifieds' => boolean true
+                              'create_classifieds' => boolean true
+                              'create_posts' => boolean true
+                              'list_roles' => boolean true
+                              'create_roles' => boolean true
+                              'delete_roles' => boolean true
+                              'edit_roles' => boolean true
+                              'restrict_content' => boolean true
+                              'administrator' => boolean true
+                          public 'filter' => null
+                      public 'user_credits' => int 0
+                      public 'flush_plugin_data' => boolean false
+                      public 'pagination_range' => int 4
+                      public 'pagination_top' => boolean false
+                      public 'pagination_bottom' => boolean false
+                      public 'classifieds_page_id' => int 129
+                      public 'classifieds_page_slug' => string 'classifieds' (length=11)
+                      public 'classifieds_page_name' => string 'classifieds' (length=11)
+                      public 'my_classifieds_page_id' => int 130
+                      public 'my_classifieds_page_slug' => string 'my-classifieds' (length=14)
+                      public 'my_classifieds_page_name' => string 'my-classifieds' (length=14)
+                      public 'checkout_page_id' => int 131
+                      public 'checkout_page_slug' => string 'checkout' (length=8)
+                      public 'checkout_page_name' => string 'checkout' (length=8)
+                      public 'is_classifieds_page' => boolean false
+                      public 'use_credits' => boolean true
+                      public 'use_paypal' => boolean true
+                      public 'use_authorizenet' => boolean false
+                      public 'use_free' => boolean false
+                      public 'use_recurring' => boolean false
+                      public 'use_one_time' => boolean false
+                      public 'transactions' => 
+                        object(CF_Transactions)[303]
+                          public 'text_domain' => string 'classifieds' (length=11)
+                          public 'options_name' => string 'classifieds_options' (length=19)
+                          public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\classifieds/' (length=60)
+                          public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/classifieds/' (length=55)
+                          public 'user_id' => int 1
+                          public 'blog_id' => string '1' (length=1)
+                          protected '_transactions' => 
+                            array (size=5)
+                              'credits' => int 0
+                              'credits_log' => 
+                                array (size=0)
+                                  empty
+                              'order' => 
+                                array (size=7)
+                                  'billing_type' => string '' (length=0)
+                                  'billing_frequency' => string '' (length=0)
+                                  'billing_period' => string '' (length=0)
+                                  'payment_method' => string '' (length=0)
+                                  'status' => string '' (length=0)
+                                  'expires' => int 0
+                                  'order_info' => 
+                                    array (size=0)
+                                      empty
+                              'paypal' => 
+                                array (size=3)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                                  'key' => string 'x' (length=1)
+                              'authorizenet' => 
+                                array (size=2)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                          protected '_credits' => int 0
+                          protected '_credits_log' => 
+                            array (size=0)
+                              empty
+                          protected '_order' => int 0
+                          protected '_status' => null
+                          protected '_expires' => int 0
+                          protected '_billing_type' => string '' (length=0)
+                          protected '_ordeer_info' => string '' (length=0)
+                          protected '_paypal' => null
+                          protected '_authorizenet' => null
+                          protected 'struc' => 
+                            array (size=5)
+                              'credits' => int 0
+                              'credits_log' => 
+                                array (size=0)
+                                  empty
+                              'order' => 
+                                array (size=7)
+                                  'billing_type' => string '' (length=0)
+                                  'billing_frequency' => string '' (length=0)
+                                  'billing_period' => string '' (length=0)
+                                  'payment_method' => string '' (length=0)
+                                  'status' => string '' (length=0)
+                                  'expires' => int 0
+                                  'order_info' => 
+                                    array (size=0)
+                                      empty
+                              'paypal' => 
+                                array (size=3)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                                  'key' => string 'x' (length=1)
+                              'authorizenet' => 
+                                array (size=2)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                      public 'capability_map' => 
+                        array (size=12)
+                          'read_classifieds' => string 'View classifieds.' (length=17)
+                          'read_private_classifieds' => string 'View private classifieds.' (length=25)
+                          'publish_classifieds' => string 'Add classifieds.' (length=16)
+                          'edit_classifieds' => string 'Edit classifieds.' (length=17)
+                          'edit_published_classifieds' => string 'Edit published classifieds.' (length=27)
+                          'edit_private_classifieds' => string 'Edit private classifieds.' (length=25)
+                          'delete_classifieds' => string 'Delete classifieds' (length=18)
+                          'delete_published_classifieds' => string 'Delete published classifieds.' (length=29)
+                          'delete_private_classifieds' => string 'Delete private classifieds.' (length=27)
+                          'edit_others_classifieds' => string 'Edit others' classifieds.' (length=25)
+                          'delete_others_classifieds' => string 'Delete others' classifieds.' (length=27)
+                          'upload_files' => string 'Upload files.' (length=13)
+                      public 'add_classified_page_id' => int 132
+                      public 'add_classified_page_page_slug' => string 'add-classified' (length=14)
+                      public 'edit_classified_page_id' => int 133
+                      public 'edit_classified_page_slug' => string 'edit-classified' (length=15)
+                      public 'my_credits_page_id' => int 134
+                      public 'my_credits_page_slug' => string 'my-credits' (length=10)
+                      public 'signin_page_id' => int 135
+                      public 'signin_page_slug' => string 'signin' (length=6)
+                  1 => string 'load_template' (length=13)
+      'listings' => 
+        array (size=1)
+          'all' => 
+            array (size=7)
+              'name' => string 'All' (length=3)
+              'link' => string 'http://mandolinlady.com/members/bryant/listings/all/' (length=52)
+              'slug' => string 'all' (length=3)
+              'css_id' => string 'all' (length=3)
+              'position' => int 10
+              'user_has_access' => boolean true
+              'screen_function' => 
+                array (size=2)
+                  0 => &
+                    object(Directory_Core_Buddypress)[112]
+                      public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/directory/' (length=53)
+                      public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\directory/' (length=58)
+                      public 'text_domain' => string 'dr_text_domain' (length=14)
+                      public 'options_name' => string 'dr_options' (length=10)
+                      public 'capability_map' => 
+                        array (size=12)
+                          'read_listings' => string 'View listings.' (length=14)
+                          'read_private_listings' => string 'View private listings.' (length=22)
+                          'publish_listings' => string 'Add listings.' (length=13)
+                          'edit_listings' => string 'Edit listings.' (length=14)
+                          'edit_published_listings' => string 'Edit published listings.' (length=24)
+                          'edit_private_listings' => string 'Edit private listings.' (length=22)
+                          'delete_listings' => string 'Delete listings' (length=15)
+                          'delete_published_listings' => string 'Delete published listings.' (length=26)
+                          'delete_private_listings' => string 'Delete private listings.' (length=24)
+                          'edit_others_listings' => string 'Edit others' listings.' (length=22)
+                          'delete_others_listings' => string 'Delete others' listings.' (length=24)
+                          'upload_files' => string 'Upload files.' (length=13)
+                      public 'is_directory_page' => boolean false
+                      public 'directory_template' => null
+                      public 'dr_first_thumbnail' => null
+                      public 'post_type' => string 'directory_listing' (length=17)
+                      public 'bp_active' => boolean true
+                      public 'directory_page_id' => int 4
+                      public 'directory_page_slug' => string 'listings' (length=8)
+                      public 'add_listing_page_id' => int 6
+                      public 'add_listing_page_slug' => string 'add-listing' (length=11)
+                      public 'edit_listing_page_id' => int 7
+                      public 'edit_listing_page_slug' => string 'edit-listing' (length=12)
+                      public 'my_listings_page_id' => int 5
+                      public 'my_listings_page_slug' => string 'my-listings' (length=11)
+                      public 'signup_page_id' => int 9
+                      public 'signup_page_slug' => string 'signup' (length=6)
+                      public 'signin_page_id' => int 69
+                      public 'signin_page_slug' => string 'signin' (length=6)
+                      public 'pagination_range' => int 4
+                      public 'pagination_top' => boolean false
+                      public 'pagination_bottom' => boolean false
+                      public 'use_credits' => boolean false
+                      public 'use_paypal' => boolean true
+                      public 'use_authorizenet' => boolean false
+                      public 'use_free' => boolean false
+                      public 'use_recurring' => boolean false
+                      public 'use_one_time' => boolean true
+                      public 'transactions' => 
+                        object(DR_Transactions)[297]
+                          public 'text_domain' => string 'dr_text_domain' (length=14)
+                          public 'options_name' => string 'dr_options' (length=10)
+                          public 'plugin_dir' => string 'C:\wamp\www\mandolinlady.com\wp-content\plugins\directory/' (length=58)
+                          public 'plugin_url' => string 'http://mandolinlady.com/wp-content/plugins/directory/' (length=53)
+                          public 'user_id' => int 1
+                          public 'blog_id' => string '1' (length=1)
+                          protected '_transactions' => 
+                            array (size=5)
+                              'credits' => int 0
+                              'credits_log' => 
+                                array (size=0)
+                                  empty
+                              'order' => 
+                                array (size=7)
+                                  'billing_type' => string '' (length=0)
+                                  'billing_frequency' => string '' (length=0)
+                                  'billing_period' => string '' (length=0)
+                                  'payment_method' => string '' (length=0)
+                                  'status' => string '' (length=0)
+                                  'expires' => int 0
+                                  'order_info' => 
+                                    array (size=0)
+                                      empty
+                              'paypal' => 
+                                array (size=3)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                                  'key' => string 'x' (length=1)
+                              'authorizenet' => 
+                                array (size=2)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                          protected '_credits' => int 0
+                          protected '_credits_log' => 
+                            array (size=0)
+                              empty
+                          protected '_order' => int 0
+                          protected '_status' => null
+                          protected '_expires' => int 0
+                          protected '_billing_type' => string '' (length=0)
+                          protected '_ordeer_info' => string '' (length=0)
+                          protected '_paypal' => null
+                          protected '_authorizenet' => null
+                          protected 'struc' => 
+                            array (size=5)
+                              'credits' => int 0
+                              'credits_log' => 
+                                array (size=0)
+                                  empty
+                              'order' => 
+                                array (size=7)
+                                  'billing_type' => string '' (length=0)
+                                  'billing_frequency' => string '' (length=0)
+                                  'billing_period' => string '' (length=0)
+                                  'payment_method' => string '' (length=0)
+                                  'status' => string '' (length=0)
+                                  'expires' => int 0
+                                  'order_info' => 
+                                    array (size=0)
+                                      empty
+                              'paypal' => 
+                                array (size=3)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                                  'key' => string 'x' (length=1)
+                              'authorizenet' => 
+                                array (size=2)
+                                  'transactions' => 
+                                    array (size=0)
+                                      empty
+                                  'profile_id' => string '' (length=0)
+                      public 'current_user' => 
+                        object(WP_User)[154]
+                          public 'data' => 
+                            object(stdClass)[156]
+                              public 'ID' => string '1' (length=1)
+                              public 'user_login' => string 'arky' (length=4)
+                              public 'user_pass' => string '$P$BCExqZgzVeHecnspPfJUV8.B7T7zO60' (length=34)
+                              public 'user_nicename' => string 'arky' (length=4)
+                              public 'user_email' => string 'abaileytn@gmail.com' (length=19)
+                              public 'user_url' => string '' (length=0)
+                              public 'user_registered' => string '2013-03-19 16:25:51' (length=19)
+                              public 'user_activation_key' => string '' (length=0)
+                              public 'user_status' => string '0' (length=1)
+                              public 'display_name' => string 'arky' (length=4)
+                              public 'spam' => string '0' (length=1)
+                              public 'deleted' => string '0' (length=1)
+                          public 'ID' => int 1
+                          public 'caps' => 
+                            array (size=3)
+                              'administrator' => boolean true
+                              'create_listings' => boolean true
+                              'create_classifieds' => boolean true
+                          public 'cap_key' => string 'wp_capabilities' (length=15)
+                          public 'roles' => 
+                            array (size=1)
+                              0 => string 'administrator' (length=13)
+                          public 'allcaps' => 
+                            array (size=93)
+                              'switch_themes' => boolean true
+                              'edit_themes' => boolean true
+                              'activate_plugins' => boolean true
+                              'edit_plugins' => boolean true
+                              'edit_users' => boolean true
+                              'edit_files' => boolean true
+                              'manage_options' => boolean true
+                              'moderate_comments' => boolean true
+                              'manage_categories' => boolean true
+                              'manage_links' => boolean true
+                              'upload_files' => boolean true
+                              'import' => boolean true
+                              'unfiltered_html' => boolean true
+                              'edit_posts' => boolean true
+                              'edit_others_posts' => boolean true
+                              'edit_published_posts' => boolean true
+                              'publish_posts' => boolean true
+                              'edit_pages' => boolean true
+                              'read' => boolean true
+                              'level_10' => boolean true
+                              'level_9' => boolean true
+                              'level_8' => boolean true
+                              'level_7' => boolean true
+                              'level_6' => boolean true
+                              'level_5' => boolean true
+                              'level_4' => boolean true
+                              'level_3' => boolean true
+                              'level_2' => boolean true
+                              'level_1' => boolean true
+                              'level_0' => boolean true
+                              'edit_others_pages' => boolean true
+                              'edit_published_pages' => boolean true
+                              'publish_pages' => boolean true
+                              'delete_pages' => boolean true
+                              'delete_others_pages' => boolean true
+                              'delete_published_pages' => boolean true
+                              'delete_posts' => boolean true
+                              'delete_others_posts' => boolean true
+                              'delete_published_posts' => boolean true
+                              'delete_private_posts' => boolean true
+                              'edit_private_posts' => boolean true
+                              'read_private_posts' => boolean true
+                              'delete_private_pages' => boolean true
+                              'edit_private_pages' => boolean true
+                              'read_private_pages' => boolean true
+                              'delete_users' => boolean true
+                              'create_users' => boolean true
+                              'unfiltered_upload' => boolean true
+                              'edit_dashboard' => boolean true
+                              'update_plugins' => boolean true
+                              'delete_plugins' => boolean true
+                              'install_plugins' => boolean true
+                              'update_themes' => boolean true
+                              'install_themes' => boolean true
+                              'update_core' => boolean true
+                              'list_users' => boolean true
+                              'remove_users' => boolean true
+                              'add_users' => boolean true
+                              'promote_users' => boolean true
+                              'edit_theme_options' => boolean true
+                              'delete_themes' => boolean true
+                              'export' => boolean true
+                              'read_listings' => boolean true
+                              'read_private_listings' => boolean true
+                              'publish_listings' => boolean true
+                              'edit_listings' => boolean true
+                              'edit_published_listings' => boolean true
+                              'edit_private_listings' => boolean true
+                              'delete_listings' => boolean true
+                              'delete_published_listings' => boolean true
+                              'delete_private_listings' => boolean true
+                              'edit_others_listings' => boolean true
+                              'delete_others_listings' => boolean true
+                              'create_listings' => boolean true
+                              'read_classifieds' => boolean true
+                              'read_private_classifieds' => boolean true
+                              'publish_classifieds' => boolean true
+                              'edit_classifieds' => boolean true
+                              'edit_published_classifieds' => boolean true
+                              'edit_private_classifieds' => boolean true
+                              'delete_classifieds' => boolean true
+                              'delete_published_classifieds' => boolean true
+                              'delete_private_classifieds' => boolean true
+                              'edit_others_classifieds' => boolean true
+                              'delete_others_classifieds' => boolean true
+                              'create_classifieds' => boolean true
+                              'create_posts' => boolean true
+                              'list_roles' => boolean true
+                              'create_roles' => boolean true
+                              'delete_roles' => boolean true
+                              'edit_roles' => boolean true
+                              'restrict_content' => boolean true
+                              'administrator' => boolean true
+                          public 'filter' => null
+                      public 'user_credits' => int 0
+                      public 'my_credits_page_id' => int 8
+                      public 'my_credits_page_slug' => string 'my-credits' (length=10)
+                  1 => string 'load_template' (length=13)
+  public 'unfiltered_uri' => &
+    array (size=3)
+      0 => string 'members' (length=7)
+      1 => string 'bryant' (length=6)
+      2 => string 'classifieds' (length=11)
+  public 'canonical_stack' => 
+    array (size=2)
+      'base_url' => string 'http://mandolinlady.com/members/bryant/' (length=39)
+      'component' => string 'classifieds' (length=11)
+  public 'action_variables' => 
+    array (size=0)
+      empty
+  public 'required_components' => 
+    array (size=2)
+      0 => string 'members' (length=7)
+      1 => string 'core' (length=4)
+  public 'loaded_components' => 
+    array (size=9)
+      'activity' => string 'activity' (length=8)
+      'blogs' => string 'blogs' (length=5)
+      'forums' => string 'forums' (length=6)
+      'friends' => string 'friends' (length=7)
+      'groups' => string 'groups' (length=6)
+      'messages' => string 'messages' (length=8)
+      'settings' => string 'settings' (length=8)
+      'profile' => string 'xprofile' (length=8)
+      'members' => string 'members' (length=7)
+  public 'active_components' => 
+    array (size=9)
+      'xprofile' => int 1
+      'settings' => int 1
+      'friends' => int 1
+      'messages' => int 1
+      'activity' => int 1
+      'groups' => int 1
+      'forums' => int 1
+      'blogs' => int 1
+      'members' => int 1
+  public 'options' => 
+    array (size=0)
+      empty

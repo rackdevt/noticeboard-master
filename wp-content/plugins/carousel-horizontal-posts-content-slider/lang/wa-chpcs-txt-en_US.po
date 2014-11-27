@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Carousel Horizontal Posts Content Slider v3.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-01 13:40:06+0000\n"
+"Last-Translator: admin <subhansanjaya@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/class-chpcs-widget.php:5
+#: classes/class-chpcs.php:228
+#: classes/class-chpcs.php:229
+#@ wa_chpcs_txt
+#@ carousel-horizontal-posts-content-slider
+msgid "CHPC Slider"
+msgstr ""
+
+#: classes/class-chpcs-widget.php:20
+#@ wp_widget_plugin
+msgid "Widget Title"
+msgstr ""
+
+#: classes/class-chpcs.php:242
+#@ wa-chpcs-txt
+msgid "Display featured image"
+msgstr ""
+
+#: classes/class-chpcs.php:243
+#@ wa-chpcs-txt
+msgid "Display next and prev buttons"
+msgstr ""
+
+#: classes/class-chpcs.php:244
+#@ wa-chpcs-txt
+msgid "Display read more text"
+msgstr ""
+
+#: classes/class-chpcs.php:245
+#@ wa-chpcs-txt
+msgid "Display title"
+msgstr ""
+
+#: classes/class-chpcs.php:246
+#@ wa-chpcs-txt
+msgid "Display excerpt"
+msgstr ""
+
+#: classes/class-chpcs.php:247
+#@ wa-chpcs-txt
+msgid "Display pagination"
+msgstr ""
+
+#: classes/class-chpcs.php:248
+#@ wa-chpcs-txt
+msgid "Auto scroll"
+msgstr ""
+
+#: classes/class-chpcs.php:249
+#@ wa-chpcs-txt
+msgid "Circular"
+msgstr ""
+
+#: classes/class-chpcs.php:250
+#@ wa-chpcs-txt
+msgid "Excerpt limit"
+msgstr ""
+
+#: classes/class-chpcs.php:251
+#@ wa-chpcs-txt
+msgid "Read more text"
+msgstr ""
+
+#: classes/class-chpcs.php:252
+#@ wa-chpcs-txt
+msgid "Category"
+msgstr ""
+
+#: classes/class-chpcs.php:253
+#@ wa-chpcs-txt
+msgid "Number of posts"
+msgstr ""
+
+#: classes/class-chpcs.php:254
+#@ wa-chpcs-txt
+msgid "Scroll"
+msgstr ""
+
+#: classes/class-chpcs.php:255
+#@ wa-chpcs-txt
+msgid "Posts order"
+msgstr ""
+
+#: classes/class-chpcs.php:256
+#@ wa-chpcs-txt
+msgid "Posts orderby"
+msgstr ""
+
+#: classes/class-chpcs.php:257
+#@ wa-chpcs-txt
+msgid "Transition effect"
+msgstr ""
+
+#: classes/class-chpcs.php:258
+#@ wa-chpcs-txt
+msgid "Easing effect"
+msgstr ""
+
+#: classes/class-chpcs.php:259
+#@ wa-chpcs
+msgid "Loading place"
+msgstr ""
+
+#: classes/class-chpcs.php:260
+#@ wa-chpcs-txt
+msgid "Deactivation"
+msgstr ""
+
+#: classes/class-chpcs.php:279
+#@ wa-chpcs-txt
+msgid "Select where all the scripts should be placed."
+msgstr ""
+
+#: classes/class-chpcs.php:384
+#@ wa-chpcs-txt
+msgid "Determines whether the carousel should be auto scroll."
+msgstr ""
+
+#: classes/class-chpcs.php:396
+#@ wa-chpcs-txt
+msgid "Number of posts to be scroll per one transition"
+msgstr ""
+
+#: classes/class-chpcs.php:412
+#@ wa-chpcs-txt
+msgid "Determines whether the carousel should be circular."
+msgstr ""
+
+#: classes/class-chpcs.php:426
+#@ wa-chpcs-txt
+msgid "Number of posts to be displayed on the slider"
+msgstr ""
+
+#: classes/class-chpcs.php:458
+#@ wa-chpcs-txt
+msgid "Category ids seperated by comma. e.g 1,2"
+msgstr ""
+
+#: classes/class-chpcs.php:478
+#@ wa-chpcs-txt
+msgid "Limit the no of words in excerpt"
+msgstr ""
+
+#: classes/class-chpcs.php:523
+#@ wa-chpcs-txt
+msgid "Delete settings on plugin deactivation."
+msgstr ""
+
+#: classes/class-chpcs.php:530
+#: classes/class-chpcs.php:537
+#@ wa-chpcs-txt
+msgid "Carousel horizontal posts content slider"
+msgstr ""
+
+#: classes/class-chpcs.php:539
+#@ wa-chpcs-txt
+msgid "Configuration: "
+msgstr ""
+
+#: classes/class-chpcs.php:539
+#@ wa-chpcs-txt
+msgid "Plugin URL"
+msgstr ""
+
+#: classes/class-chpcs.php:539
+#@ wa-chpcs-txt
+msgid "Plugin URI"
+msgstr ""
+
+#: classes/class-chpcs.php:541
+#@ wa-chpcs-txt
+msgid "Do you like this plugin?"
+msgstr ""
+
+#: classes/class-chpcs.php:542
+#@ wa-chpcs-txt
+msgid "Please, "
+msgstr ""
+
+#: classes/class-chpcs.php:542
+#@ wa-chpcs-txt
+msgid "rate it"
+msgstr ""
+
+#: classes/class-chpcs.php:542
+#@ wa-chpcs-txt
+msgid "on WordPress.org"
+msgstr ""
+
+#: classes/class-chpcs.php:553
+#@ wa-chpcs-txt
+msgid "Reset to defaults"
+msgstr ""
+
+#: classes/class-chpcs.php:560
+#@ wa-chpcs-txt
+msgid "Enable"
+msgstr ""
+
+#: classes/class-chpcs.php:561
+#@ wa-chpcs-txt
+msgid "Disable"
+msgstr ""
+
+#: classes/class-chpcs.php:565
+#@ wa-chpcs-txt
+msgid "Header"
+msgstr ""
+
+#: classes/class-chpcs.php:566
+#@ wa-chpcs-txt
+msgid "Footer"
+msgstr ""
+
+#: classes/class-chpcs.php:571
+#@ wa-chpcs-txt
+msgid "General settings"
+msgstr ""
+
+#: classes/class-chpcs.php:610
+#@ wa-chpcs-txt
+msgid "Settings restored to defaults."
+msgstr ""
+

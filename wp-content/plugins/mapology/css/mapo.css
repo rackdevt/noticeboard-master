@@ -1,0 +1,279 @@
+#members-directory-form,#groups-directory-form{
+	position:relative;
+}
+#members-dir-search,#group-dir-search{
+	position:absolute;
+	right:0;
+	top:35px;
+}
+#usermap-nav{
+	border-bottom:1px solid #ddd;
+	overflow:hidden;
+	padding-bottom:10px;
+	margin-bottom: 10px;
+}
+.mapnav-section{
+	float:left;
+	margin-right:40px;
+	font-size:14px;
+	position:relative;
+}
+.mapnav-move{
+	top:2px;
+}
+.mapnav-title{
+	font-weight:bold;
+}
+.enhanced-map{
+	margin-bottom: 13px;
+}
+.last-section{
+	margin-right:0;
+	font-size:12px;
+}
+.standard-form .mapnav-section label{
+	display:inline !important;
+	font-weight:normal !important;
+}
+#umap{
+	height:200px;
+	clear:both;
+}
+#gmap{
+	height:400px;
+}
+.date-input{
+	width:200px !important;
+}
+.date-wrapper{
+	width:45%;
+	float:left;
+}
+#mapology-create-map{
+	height:500px;
+	margin-top:20px;
+}
+#member-overview-map,#group-overview-map{
+	height:500px;
+}
+#item-body .address,#item-body .contact{
+	width:45%;
+	float:left;
+}
+.single-route{
+	border-bottom:none !important;
+}
+.single-route .activity{
+	margin-top:20px;
+}
+.maps{
+	position:relative;
+}
+.single-route .item-desc{
+	margin-left:0 !important;
+}
+.kml{
+	position:absolute;
+	right:0;
+	top:-43px;
+}
+.route-map{
+	height:500px;
+}
+div.single-nav {
+    margin: -15px -20px 9px -20px;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 20px 10px 20px;
+    color: #888;
+    font-size: 11px;
+    height: 16px;
+}
+div.single-nav .previous-route {
+    float: left
+}
+div.single-nav .next-route {
+    float: right
+}
+.route-creator,.remove-route {
+    display: block;
+    margin-top: 10px;
+	text-align:right !important;
+}
+#routes-list{
+	clear:both;
+}
+.route-creator{
+	overflow:auto;
+}
+.route-creator .avatar{
+	float:right !important;
+	margin:0 !important;
+}
+.post-map-right{
+	float:right;
+	margin:5px 0 10px 10px;
+}
+.post-map-left{
+	float:left;
+	margin:5px 10px 10px 0;
+}
+.route-map-wrapper{
+	padding:5px 10px;
+	border:1px solid #CCC;
+	background:#f0f0f0;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+.rwwrap-left{
+	float:left;
+	margin:5px 10px 10px 0;
+}
+.rwwrap-right{
+	float:right;
+	margin:5px 0 10px 10px;
+}
+.route-map-title{
+	font-size:14px;
+}
+.route-map-description p{
+	margin:3px 0 !important;
+}
+.route-map-date{
+	text-align:right;
+	font-size:10px;
+}
+.route-map-creator{
+	font-style:italic;
+	font-size:10px;
+}
+.private-route p{
+	margin-bottom:0 !important;
+}
+.private-route{
+	background: #e41717;
+	color: #fff;
+	border-color: #a71a1a;
+	text-align:center;
+	padding:4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.widget-route img.avatar{
+	float:none !important;
+	height:inherit !important;
+	width:inherit !important;
+}
+#location-dir-list ul li{
+	overflow:auto !important;	
+}
+.item-tags span{
+	display:block;
+	margin:10px 0;	
+}
+#member-overview-legend,#group-overview-legend{
+	margin-top:10px;
+}
+.legend-item{
+	margin:0 20px 10px 0;
+	float:left;
+}
+.legend-color{
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-right:10px;
+}
+.waypoint-hide{
+	display:none;	
+}
+.wp-show{
+	display:block !important;	
+}
+div#list-choices {
+    position: absolute;
+    right: 230px;
+    top: -3px;
+}
+.active-view {
+    border: 2px solid #ccc
+}
+.inactive-view {
+    border: 2px solid #fff
+}
+ul.item-list-grid {
+    padding-top: 15px
+}
+h3.pagetitle {
+    position: relative
+}
+li.grid-view {
+    float: left;
+    margin: 0 20px 20px 0;
+    border-bottom: none !important;
+    padding: 0 !important;
+    min-height: 150px !important;
+    position: relative;
+}
+.grid-style {
+    background: url(images/grid.png) no-repeat center center;
+    margin-right: 5px;
+}
+.list-style {
+    background: url(images/list.png) no-repeat center center
+}
+div#list-choices a, div#list-choices-group a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+}
+div#list-choices-group a {
+    padding: 0 !important
+}
+.grid-item {
+    background: transparent url(images/60pc_black.png) repeat;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 10px;
+    width: 130px;
+    text-align: center;
+	max-height: 140px;
+    left: 2px;
+	max-height:140px;
+}
+.grid-item a {
+    color: #fff;
+    text-decoration: none !important;
+    display: block;
+}
+.grid-view .zoomin {
+    background: transparent url(images/zoomin.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+div#pag-bottom {
+	clear:both;
+}
+div.item-list div.action {
+	position:absolute;
+	right:20px;
+	text-align:right;
+	top:20px;
+}
+div.item-list .item {
+	padding-left:170px;
+}
+.cchange{
+	margin:10px 0;
+}
+div.map-holder{
+	height:400px;
+}

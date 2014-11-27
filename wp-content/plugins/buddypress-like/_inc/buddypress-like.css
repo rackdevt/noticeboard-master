@@ -1,0 +1,21 @@
+.activity-meta .like{
+	background:#fff7cd url(img/like.png) no-repeat 3px 2px;
+	color: #FFA200;
+	border: solid 1px #feeb8b;
+	padding-left:18px; !important;
+	}
+	
+.activity-meta .unlike{
+	background:#fff7cd url(img/unlike.png) no-repeat 3px 2px;
+	color: #FFA200;
+	border: solid 1px #feeb8b;
+	padding-left:18px; !important;
+	}
+.activity-meta  .bplike-prev-like{
+	background:url(img/like.png) no-repeat 3px 2px;
+	padding-left:18px; !important;
+}
+.activity-meta  .bplike-prev-unlike{
+	background:url(img/unlike.png) no-repeat 3px 2px;
+	padding-left:18px; !important;
+}
